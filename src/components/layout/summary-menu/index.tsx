@@ -16,7 +16,7 @@ export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
 
       <ul className="flex flex-col gap-2 text-sm text-neutral-400">
         {summary.map((item) => {
-          return <SummaryItem title={item.title} url={item.url} />
+          return <SummaryItem key={item.url} title={item.title} url={item.url} />
         })}
       </ul>
     </div>
