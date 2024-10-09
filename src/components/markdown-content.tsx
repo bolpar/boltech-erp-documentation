@@ -61,6 +61,7 @@ export const MarkdownContent = ({ markdown }: { markdown: string }) => {
         blockquote: ({ ...props }) => (
           <blockquote className="border-l-4 border-blue-500 bg-neutral-100 px-4 text-neutral-700" {...props} />
         ),
+        img: ({ ...props }) => (<img className='rounded-lg border-2 border-neutral-300 p-4' {...props} />)
       }}
       className="whitespace-pre-wrap"
     >

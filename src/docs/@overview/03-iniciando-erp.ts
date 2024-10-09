@@ -29,10 +29,6 @@ export const INICIANDO_SUMMARY = [
     url: "#layout-e-organização"
   },
   {
-    title: "Análises em tempo real",
-    url: "#análises-em-tempo-real"
-  },
-  {
     title: "Overview do mecanismo",
     url: "#overview-do-mecanismo"
   },
