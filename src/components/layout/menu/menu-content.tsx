@@ -10,7 +10,8 @@ export const MenuContent = () => {
   const [openItems, setOpenItems] = useState<string[]>([])
 
   function closeAllItems() {
-    setOpenItems([])
+    // Fecha todos os "Accordions" abertos
+    // setOpenItems([])
   }
 
   return (

@@ -35,36 +35,36 @@ export const NAV_ITEMS = [
     icon: ShoppingBasketIcon,
     subLinks: [
       {
-        title: 'Gerando um pedido',
-        path: '/vendas',
+        title: 'Introdução ao fluxo de vendas',
+        path: '/vendas/introducao',
       },
       {
-        title: 'Agendando a instalação do pedido',
-        path: '/vendas/agendando-instalacao',
+        title: 'Criar orçamento de pedido',
+        path: '/vendas/novo-orcamento',
       },
       {
-        title: 'Iniciando a separaçado do pedido',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Agendar instalação do pedido',
+        path: '/vendas/agendar-instalacao',
       },
       {
-        title: 'Iniciando a separaçado do pedido',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Iniciar separação do pedido',
+        path: '/vendas/iniciar-separacao',
       },
       {
-        title: 'Gerando o recebimento do pedido',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Gerar recebimento do pedido',
+        path: '/vendas/gerar-recebimento',
       },
       {
-        title: 'Gerando o contrato do pedido',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Gerar contrato do pedido',
+        path: '/vendas/gerar-contrato',
       },
       {
-        title: 'Testando o equipamento',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Testar equipamento',
+        path: '/vendas/testar-equipamento',
       },
       {
-        title: 'Consultando pedidos de venda',
-        path: '/vendas/iniciando-a-separacao',
+        title: 'Consultar pedidos de venda',
+        path: '/vendas/consultar-pedidos',
       },
     ],
   },

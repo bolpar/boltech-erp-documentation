@@ -73,7 +73,6 @@ export const NavItem = ({
   const isActive = pathname.startsWith('/' + formattedPath[1])
 
   const variant = isActive ? 'active' : 'default'
-  const subLinksByOrder = subLinks?.sort((a, b) => a.title.localeCompare(b.title))
 
   return (
     <div className='w-full'>
@@ -90,7 +89,9 @@ export const NavItem = ({
 
       <Accordion.Content className='data-[state=open]:animate-sidePanelShow'>
         <ul className="mb-2 ml-5 mt-1 border-l border-neutral-200">
-          {subLinksByOrder?.map((link, index) => {
+          {subLinks?.map((link, index) => {
+            const isActive = pathname === link.path
+
             return (
               <li key={index}>
                 <Link
@@ -98,7 +99,7 @@ export const NavItem = ({
                   onClick={() => closeItems()}
                   className="group/item flex px-4 py-2 transition-all hover:bg-green-100"
                 >
-                  <span className="text-xs text-zinc-500 group-hover/item:text-green-500">
+                  <span className={`text-xs ${isActive ? 'text-green-600 font-bold' : 'text-zinc-500'} group-hover/item:text-green-500`}>
                     {link.title}
                   </span>
                 </Link>
