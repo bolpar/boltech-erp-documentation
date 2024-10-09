@@ -9,14 +9,14 @@ A aba **"Agendar Instalação do Pedido"** é fundamental para gerenciar o proce
 
 Nesta seção, você deve cadastrar o veículo que receberá o rastreador, preenchendo todos os campos solicitados com precisão.
 
-![Formulário de veículo](images/agendar-instalacao/01.jpg)
+![Formulário de veículo](/images/agendar-instalacao/01.jpg)
 > **Observação:** Ao inserir a placa do veículo no campo específico, o sistema automaticamente consulta a API do Detran e preenche as informações disponíveis do veículo. Essa funcionalidade agiliza o processo e minimiza erros.
 
 ## Agendando a Instalação
 
 Para seguir com o agendamento da instalação, siga os passos a seguir para assegurar que tudo seja organizado de maneira eficiente:
 
-![Formulário de agendamento](images/agendar-instalacao/02.jpg)
+![Formulário de agendamento](/images/agendar-instalacao/02.jpg)
 - **Seleção do Técnico**: Escolha o técnico responsável pela instalação do equipamento.
 - **Definição do Tipo de Serviço**: Escolha o tipo de serviço a ser executado, conforme a necessidade do cliente.
 - **Local de Instalação**: Defina onde a instalação será realizada, podendo ser no ponto de atendimento do técnico ou em um endereço fornecido pelo cliente, caso uma visita técnica seja necessária.
@@ -31,7 +31,7 @@ Após preencher todos os campos necessários, clique em **Registrar**. O sistema
 
 A tabela de agendamentos oferece uma visão clara e detalhada de todos os compromissos agendados. Os dados são organizados para facilitar o acompanhamento do status de cada instalação, incluindo: **Placa do Veículo**, **Modelo do Veículo**, **Nome do Técnico**, **Data e Hora da Instalação**.
 
-![Tabela de agendamentos](images/agendar-instalacao/03.jpg)
+![Tabela de agendamentos](/images/agendar-instalacao/03.jpg)
 
 ---
 

@@ -1,6 +1,6 @@
 export const INTRODUCTION_MARKDOWN = `
  # Introdução ao BolTech ERP
-![Logo da Boltech](boltech-logo.png)
+![Logo da Boltech](/boltech-logo.png)
 ## Visão Geral
 O BolTech ERP é uma ferramenta completa desenvolvida para centralizar e otimizar todas as operações de uma empresa de rastreadores. Este sistema oferece uma solução integrada para que gestores e colaboradores possam controlar cada aspecto do negócio, desde a gestão interna até os serviços oferecidos aos clientes.
 
@@ -16,7 +16,7 @@ Além das operações internas, o BolTech ERP também funciona como uma platafor
 
 Para iniciar, basta escolher uma das opções no menu lateral, que guiará você por cada módulo do sistema. A organização foi pensada para ser intuitiva, então, mesmo que seja a sua primeira vez usando o sistema, você encontrará rapidamente o que precisa, seja para cadastrar uma nova venda, acessar informações de clientes ou controlar a localização de um veículo.
 
-![Menu de navegação](images/beneficios-objetivos/01.png)
+![Menu de navegação](/images/beneficios-objetivos/01.png)
 `
 
 export const INTRODUCTION_SUMMARY = [
