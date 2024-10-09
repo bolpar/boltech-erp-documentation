@@ -25,9 +25,9 @@ const icon = tv({
   variants: {
     variant: {
       default:
-        'text-zinc-500 dark:text-white dark:group-hover/link:text-zinc-800 group-hover/link:text-white',
+        'text-zinc-500 group-hover/link:text-white',
       active:
-        'font-bold text-green-500 dark:text-green-400 dark:group/link:text-green-900',
+        'font-bold text-green-500',
     },
   },
   defaultVariants: {
@@ -40,9 +40,9 @@ const text = tv({
   variants: {
     variant: {
       default:
-        'font-medium text-zinc-500 dark:text-white dark:group-hover/link:text-zinc-800 group-hover/link:text-white',
+        'font-medium text-zinc-500 group-hover/link:text-white',
       active:
-        'group/link:text-green-500 dark:group/link:text-green-900 font-bold text-green-500 dark:text-green-400',
+        'group/link:text-green-500 font-bold text-green-500',
     },
   },
   defaultVariants: {
@@ -89,16 +89,16 @@ export const NavItem = ({
       </Accordion.Trigger>
 
       <Accordion.Content className='data-[state=open]:animate-sidePanelShow'>
-        <ul className="dark:border-darkModeContrast mb-2 ml-5 mt-1 border-l border-neutral-200">
+        <ul className="mb-2 ml-5 mt-1 border-l border-neutral-200">
           {subLinksByOrder?.map((link, index) => {
             return (
               <li key={index}>
                 <Link
                   href={link.path}
                   onClick={() => closeItems()}
-                  className="group/item flex px-4 py-2 transition-all hover:bg-green-100 dark:hover:bg-green-800/30"
+                  className="group/item flex px-4 py-2 transition-all hover:bg-green-100"
                 >
-                  <span className="text-xs text-zinc-500 group-hover/item:text-green-500 dark:text-zinc-300">
+                  <span className="text-xs text-zinc-500 group-hover/item:text-green-500">
                     {link.title}
                   </span>
                 </Link>

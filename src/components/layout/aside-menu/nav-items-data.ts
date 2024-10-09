@@ -35,16 +35,36 @@ export const NAV_ITEMS = [
     icon: ShoppingBasketIcon,
     subLinks: [
       {
-        title: 'Pedidos de Venda',
+        title: 'Gerando um pedido',
         path: '/vendas',
       },
       {
-        title: 'Link de Cadastro',
-        path: '/link-de-contato',
+        title: 'Agendando a instalação do pedido',
+        path: '/vendas/agendando-instalacao',
       },
       {
-        title: 'Novo pedido',
-        path: '/vendas/dados',
+        title: 'Iniciando a separaçado do pedido',
+        path: '/vendas/iniciando-a-separacao',
+      },
+      {
+        title: 'Iniciando a separaçado do pedido',
+        path: '/vendas/iniciando-a-separacao',
+      },
+      {
+        title: 'Gerando o recebimento do pedido',
+        path: '/vendas/iniciando-a-separacao',
+      },
+      {
+        title: 'Gerando o contrato do pedido',
+        path: '/vendas/iniciando-a-separacao',
+      },
+      {
+        title: 'Testando o equipamento',
+        path: '/vendas/iniciando-a-separacao',
+      },
+      {
+        title: 'Consultando pedidos de venda',
+        path: '/vendas/iniciando-a-separacao',
       },
     ],
   },
