@@ -1,42 +1,47 @@
 export const AGENDAR_INSTALACAO_MARKDOWN = `
- # Agendar instalação do pedido
+# Agendar Instalação do Pedido
 
-O fluxo de vendas do sistema Boltech consiste em diversas etapas que garantem que todas as informações necessárias para o devido controle sejam registradas no sistema.
+A aba **"Agendar Instalação do Pedido"** é fundamental para gerenciar o processo de instalação de rastreadores, permitindo que você cadastre o veículo e agende a instalação de forma eficiente e organizada. **Esse passo é opcional para casos em que o modelo do rastreador não requer instalação**.
 
-## Fluxo de Venda
+---
 
-O processo de venda segue os seguintes passos:
+## Informando o Veículo
 
-1. Cadastro do cliente
-2. Definição do tipo do aparelho e quantidade
-3. Seleção do plano
-4. Aplicação de descontos ou acréscimos
-5. Cadastro do veículo
-6. Agendamento da instalação
-7. Seleção do equipamento para venda
-8. Checklist da expedição
-9. Recebimento dos valores
-10. Envio de contrato digital para assinatura
-11. Teste do aparelho durante a instalação no veículo
-12. Coleta de fotos e dados da instalação
-13. Conclusão do pedido
+Nesta seção, você deve cadastrar o veículo que receberá o rastreador, preenchendo todos os campos solicitados com precisão.
+![Formulário de veículo](images/agendar-instalacao/01.jpg)
+> **Observação:** Ao inserir a placa do veículo no campo específico, o sistema automaticamente consulta a API do Detran e preenche as informações disponíveis do veículo. Essa funcionalidade agiliza o processo e minimiza erros.
 
-É necessário que todos esses passos sejam concluídos para que o sistema considere a venda como finalizada.
+## Agendando a Instalação
 
-## Cadastro do Cliente
+Para seguir com o agendamento da instalação, siga os passos a seguir para assegurar que tudo seja organizado de maneira eficiente:
 
-O primeiro passo é garantir que o cliente esteja cadastrado no sistema. O cadastro pode ser realizado das seguintes maneiras:
+1 - **Seleção do Técnico**: Escolha o técnico responsável pela instalação do equipamento. Para isso, é necessário que o técnico já esteja previamente cadastrado em **Cadastro > Técnico**.
 
-- **Manual:** Através do menu "Cadastro > Cliente > Registrar novo cliente".
-- **Cadastro automático:** Via link de cadastro enviado para o cliente, onde ele preenche um formulário com os dados necessários.
-- **Diretamente no fluxo de vendas:** Ao preencher os campos na aba "Dados" e clicar em "salvar", o cliente é automaticamente cadastrado.
-- **Lead captado via Landing Page.**
+2 - **Definição do Tipo de Serviço**: Escolha o tipo de serviço a ser executado, conforme a necessidade do cliente.
 
-Para cadastros realizados pelo link ou como Lead, o pedido aparecerá automaticamente na lista do fluxo de vendas, permitindo iniciar ou continuar o processo.
+3 - **Local de Instalação**: Defina onde a instalação será realizada, podendo ser no ponto de atendimento do técnico ou em um endereço fornecido pelo cliente, caso uma visita técnica seja necessária.
 
-## Tipo do Aparelho e Quantidade
+4 - **Agendamento de Data e Hora**: Selecione a data e o horário mais adequados para realizar a instalação.
 
-Na aba "Dados" dentro do fluxo de vendas, o usuário deve selecionar o tipo de equipamento e a quantidade desejada. Atualmente, o sistema permite apenas **um tipo de equipamento por pedido de venda**.
+5 - **Valores Adicionais**: Adicione quaisquer custos extras que possam estar envolvidos, como taxas de deslocamento ou encargos adicionais relacionados ao serviço.
+
+Após preencher todos os campos necessários, clique em **Registrar**. O sistema irá gerar automaticamente o agendamento e criar uma **Ordem de Serviço** pendente para o técnico selecionado, garantindo que todas as etapas estejam devidamente registradas.
+
+## Agendamentos
+
+A tabela de agendamentos oferece uma visão clara e detalhada de todos os compromissos agendados. Os dados são organizados para facilitar o acompanhamento do status de cada instalação, incluindo:
+
+- Placa do Veículo
+- Modelo do Veículo
+- Nome do Técnico
+- Data e Hora da Instalação
+
+## Funcionalidades Adicionais
+
+- **Edição de Agendamentos:** Caso seja necessário alterar algum detalhe de um agendamento, basta selecionar o item na tabela para editar as informações de forma rápida e precisa.
+- **Notificação via WhatsApp:** Para proporcionar uma experiência mais integrada e eficiente, você pode enviar os detalhes do agendamento diretamente para o cliente via WhatsApp. Use o botão dedicado com o ícone da plataforma para compartilhar as informações de forma imediata.
+
+Nosso objetivo é oferecer uma gestão de agendamentos prática e intuitiva, garantindo que cada instalação ocorra dentro do cronograma e com total transparência para o cliente e a equipe técnica envolvida.
 `
 
 export const AGENDAR_INSTALACAO_SUMMARY = [
