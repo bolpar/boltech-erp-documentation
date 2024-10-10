@@ -27,7 +27,7 @@ interface MainContentProps {
 export const MainContent = ({ breadCrumb, markdown, summary, pagination }: MainContentProps) => {
   return (
     <div className="grid grid-cols-4 max-[1255px]:grid-cols-3">
-      <div className="col-span-3 h-[85vh] overflow-y-scroll px-10 pb-16">
+      <div className="col-span-3 h-[85vh] overflow-y-scroll px-10 pb-16 max-[600px]:px-6">
         <BreadCrumb items={breadCrumb} />
         <MarkdownContent markdown={markdown} />
         <FooterPagination pagination={pagination} />

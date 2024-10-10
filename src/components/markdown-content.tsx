@@ -49,6 +49,9 @@ export const MarkdownContent = ({ markdown }: { markdown: string }) => {
         h2: ({ ...props }) => (
           <h2 className="text-2xl font-semibold text-neutral-700" {...props} />
         ),
+        h3: ({ ...props }) => (
+          <h3 className="text-lg font-semibold text-neutral-700" {...props} />
+        ),
         p: ({ ...props }) => (
           <p className="text-base leading-relaxed text-neutral-600" {...props} />
         ),
@@ -56,12 +59,12 @@ export const MarkdownContent = ({ markdown }: { markdown: string }) => {
           <ul className="list-inside list-[square] text-neutral-600" {...props} />
         ),
         ol: ({ ...props }) => (
-          <ol className="list-inside list-[square] text-neutral-600" {...props} />
+          <ol className="my-2 list-inside list-decimal text-neutral-600" {...props} />
         ),
         blockquote: ({ ...props }) => (
           <blockquote className="border-l-4 border-blue-500 bg-neutral-100 px-4 text-neutral-700" {...props} />
         ),
-        img: ({ ...props }) => (<img className='rounded-lg border-2 border-neutral-300 p-4' {...props} />)
+        img: ({ ...props }) => (<img className='rounded-lg border-2 border-neutral-300 p-1' {...props} />)
       }}
       className="whitespace-pre-wrap"
     >

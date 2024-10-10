@@ -16,7 +16,7 @@ interface FooterPaginationProps {
 
 export const FooterPagination = ({ pagination }: FooterPaginationProps) => {
   return (
-    <footer className="mt-8 flex items-center justify-between border-t pt-8">
+    <footer className="mt-8 flex flex-wrap items-center justify-between border-t pt-8">
       <PreviousPage title={pagination?.previous?.title} url={pagination.previous?.url} />
       <NextPage title={pagination.next?.title} url={pagination.next?.url} />
     </footer>
@@ -33,10 +33,12 @@ const PreviousPage = ({ title, url }: PreviousPageProps) => {
     <div className="flex flex-col">
       <div className="flex items-center justify-end">
         <ChevronLeftIcon className="mt-0.5 h-4 w-4 text-neutral-400" />
-        <span className="text-neutral-500">Anterior</span>
+        <Link href={url ?? "/"} className="text-neutral-500 hover:text-opacity-60">
+          <span className="">Anterior</span>
+        </Link>
       </div>
 
-      <Link href={url ?? "/"} className="text-green-500 hover:text-green-700">{title}</Link>
+      <Link href={url ?? "/"} className="text-green-500 hover:text-green-700 max-[570px]:hidden">{title}</Link>
     </div>
   )
 }
@@ -50,11 +52,13 @@ const NextPage = ({ title, url }: NextPageProps) => {
   return (
     <div className="flex flex-col">
       <div className="flex items-center">
-        <span className="text-neutral-500">Próximo</span>
+        <Link href={url ?? "/"} className="text-neutral-500 hover:text-opacity-60">
+          <span className="">Próximo</span>
+        </Link>
         <ChevronRightIcon className="mt-0.5 h-4 w-4 text-neutral-400" />
       </div>
 
-      <Link href={url ?? "/"} className="text-green-500 hover:text-green-700">{title}</Link>
+      <Link href={url ?? "/"} className="text-green-500 hover:text-green-700 max-[570px]:hidden">{title}</Link>
     </div>
   )
 }
