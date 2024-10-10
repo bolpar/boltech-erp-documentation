@@ -33,7 +33,7 @@ Escolha o plano de serviço mais adequado para o cliente, apresentando as opçõ
 
 ---
 
-### Valores Adicionais
+## Valores Adicionais
 Aplique ajustes financeiros como descontos ou acréscimos e registre observações relevantes sobre a negociação.
 
 ![Fieldset Valores Adicionais](/images/novo-orcamento/05.webp)
@@ -41,29 +41,29 @@ Aplique ajustes financeiros como descontos ou acréscimos e registre observaçõ
 
 ---
 
-Esse fluxo assegura que todas as informações relevantes sejam coletadas de forma clara e eficiente, facilitando o processo de venda.
+Ao seguir os passos acima, você terá um orçamento concluído em nossos sistemas. Isso garante que todas as informações do cliente e detalhes da venda estejam corretamente registrados, facilitando o acompanhamento e a gestão das vendas futuras.
 `
 
 export const NOVO_ORCAMENTO_SUMMARY = [
   {
-    title: "Visão geral",
-    url: "#visão-geral"
+    title: "Informações básicas",
+    url: "#informações-básicas"
   },
   {
-    title: "Primeiros passos no sistema",
-    url: "#primeiros-passos-no-sistema"
+    title: "Endereço",
+    url: "#endereço"
   },
   {
-    title: "Configurações iniciais",
-    url: "#configurações-iniciais"
+    title: "Equipamentos",
+    url: "#equipamentos"
   },
   {
-    title: "Conclusão",
-    url: "#conclusão"
+    title: "Planos",
+    url: "#planos"
   },
   {
-    title: "Considerações finais",
-    url: "#considerações-finais"
+    title: "Valores adicionais",
+    url: "#valores-adicionais"
   },
 ]
 
