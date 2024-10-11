@@ -16,24 +16,17 @@ Nesta seção, você deve informar as informações do veículo do cliente que r
 
 ## Agendando a Instalação
 
-Para concluir com o agendamento da instalação, siga os passos a seguir para registrar no sistema um agendamento de instalação:
+Para concluir o agendamento da instalação, escolha o técnico, o tipo de serviço, o endereço, a data e o horário. Adicione o custo da instalação e, ao clicar em **"Registrar"**, o sistema criará uma **ordem de serviço** pendente para o técnico selecionado.
 
 ![Formulário de agendamento](/images/agendar-instalacao/02.webp)
-- **Técnico**: Escolha o técnico responsável pela instalação do equipamento.
-- **Tipo de Serviço**: Escolha o tipo de serviço a ser executado, conforme a necessidade do cliente.
-- **Endereço**: Defina onde a instalação será realizada, podendo ser no ponto de atendimento do técnico ou em um endereço fornecido pelo cliente, caso uma visita técnica seja necessária.
-- **Data**: Selecione a data e o horário mais adequados para realizar a instalação.
-- **Valor de Instalação**: Adicione o valor de deslocamento ou encargos adicionais relacionados ao custo da instalação.
 
-Após preencher todos os campos necessários, clique em **Registrar**. O sistema irá gerar o agendamento e criar uma **Ordem de Serviço** pendente para o técnico selecionado.
-
-> **Observação:** Para agendar uma instalação, é nescessário que o sistema possua técnicos já existentes. Para o cadastro de técnico basta navegar em **"Cadastro > Técnico"**
+> **Observação:** Para agendar uma instalação, é nescessário que o sistema possua técnicos já existentes. Para o cadastro de técnico basta navegar em **Cadastro > Técnico**
 
 ---
 
 ## Agendamentos
 
-A tabela de agendamentos oferece uma visão clara e detalhada de todos os compromissos agendados. Os dados são organizados para facilitar o acompanhamento do status de cada instalação, incluindo: **Placa do Veículo**, **Modelo do Veículo**, **Nome do Técnico**, **Data e Hora da Instalação**.
+A tabela de agendamentos oferece uma visão clara e detalhada de todos os compromissos agendados. Os dados são organizados para facilitar o acompanhamento do status de cada instalação, incluindo: **placa do veículo**, **modelo do veículo**, **nome do técnico**, **data e hora da instalação**.
 
 ![Tabela de agendamentos](/images/agendar-instalacao/03.webp)
 

@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from "react"
-
 interface SummaryMenuProps {
   summary: Array<{
     title: string
@@ -10,7 +8,6 @@ interface SummaryMenuProps {
 }
 
 export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
-  const [currentLink, setCurrentLink] = useState("")
 
   return (
     <div className="col-span-1 ml-6 h-fit border-l border-neutral-200 pl-6 text-neutral-200 max-[1255px]:hidden">
@@ -21,11 +18,7 @@ export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
 
           return (
             <li key={item.url}>
-              <a
-                href={item.url}
-                onClick={() => setCurrentLink(item.url)}
-                className={`${currentLink === item.url ? "text-green-500" : "text-neutral-400"}`}
-              >
+              <a href={item.url} className="text-neutral-400 hover:text-green-500">
                 {item.title}
               </a>
             </li>

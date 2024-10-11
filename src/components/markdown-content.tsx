@@ -55,11 +55,14 @@ export const MarkdownContent = ({ markdown }: { markdown: string }) => {
         p: ({ ...props }) => (
           <p className="text-base leading-relaxed text-neutral-600" {...props} />
         ),
+        a: ({ ...props }) => (
+          <a className="text-base leading-relaxed text-green-600 underline" {...props} />
+        ),
         ul: ({ ...props }) => (
-          <ul className="list-inside list-[square] text-neutral-600" {...props} />
+          <ul className="mb-0 mt-0 list-inside list-[square] text-neutral-600" {...props} />
         ),
         ol: ({ ...props }) => (
-          <ol className="my-2 list-inside list-decimal text-neutral-600" {...props} />
+          <ol className="mb-0 mt-0 list-inside list-decimal text-neutral-600" {...props} />
         ),
         blockquote: ({ ...props }) => (
           <blockquote className="border-l-4 border-blue-500 bg-neutral-100 px-4 text-neutral-700" {...props} />

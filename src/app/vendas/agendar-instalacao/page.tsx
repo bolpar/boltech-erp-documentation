@@ -4,7 +4,7 @@ import { AGENDAR_INSTALACAO_ACTIONS, AGENDAR_INSTALACAO_MARKDOWN, AGENDAR_INSTAL
 export default function AgendarInstalacao() {
   return (
     <MainContent
-      breadCrumb={[{ title: "Agendar instalação do pedido" }]}
+      breadCrumb={[{ title: "Vendas" }, { title: "Agendar instalação do pedido" }]}
       markdown={AGENDAR_INSTALACAO_MARKDOWN}
       summary={AGENDAR_INSTALACAO_SUMMARY}
       pagination={AGENDAR_INSTALACAO_ACTIONS}

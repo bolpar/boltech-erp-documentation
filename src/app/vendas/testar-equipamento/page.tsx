@@ -4,7 +4,7 @@ import { TESTAR_EQUIPAMENTO_ACTIONS, TESTAR_EQUIPAMENTO_MARKDOWN, TESTAR_EQUIPAM
 export default function TestarEquipamento() {
   return (
     <MainContent
-      breadCrumb={[{ title: "Testar equipamento" }]}
+      breadCrumb={[{ title: "Vendas" }, { title: "Testar equipamento" }]}
       markdown={TESTAR_EQUIPAMENTO_MARKDOWN}
       summary={TESTAR_EQUIPAMENTO_SUMMARY}
       pagination={TESTAR_EQUIPAMENTO_ACTIONS}

@@ -4,7 +4,7 @@ import { INTRODUCAO_VENDAS_ACTIONS, INTRODUCAO_VENDAS_MARKDOWN, INTRODUCAO_VENDA
 export default function Introducao() {
   return (
     <MainContent
-      breadCrumb={[{ title: "Introdução ao fluxo de vendas" }]}
+      breadCrumb={[{ title: "Vendas" }, { title: "Introdução ao fluxo de vendas" }]}
       markdown={INTRODUCAO_VENDAS_MARKDOWN}
       summary={INTRODUCAO_VENDAS_SUMMARY}
       pagination={INTRODUCAO_VENDAS_ACTIONS}

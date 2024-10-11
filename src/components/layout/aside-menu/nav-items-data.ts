@@ -101,8 +101,20 @@ export const NAV_ITEMS = [
     icon: UsersIcon,
     subLinks: [
       {
-        title: 'Pesquisar cliente',
-        path: '/clientes/',
+        title: 'Introdução ao fluxo de cliente',
+        path: '/clientes/introducao',
+      },
+      {
+        title: 'Criar um cliente',
+        path: '/clientes/novo-cliente',
+      },
+      {
+        title: 'Registrar o veículo do cliente',
+        path: '/clientes/registrar-veiculo-cliente',
+      },
+      {
+        title: 'Analisar o financeiro do cliente',
+        path: '/clientes/financeiro',
       },
     ],
   },

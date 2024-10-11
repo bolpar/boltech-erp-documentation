@@ -4,7 +4,7 @@ import { CONSULTAR_PEDIDOS_ACTIONS, CONSULTAR_PEDIDOS_MARKDOWN, CONSULTAR_PEDIDO
 export default function ConsultarPedidos() {
   return (
     <MainContent
-      breadCrumb={[{ title: "Consultar pedidos de venda" }]}
+      breadCrumb={[{ title: "Vendas" }, { title: "Consultar pedidos de venda" }]}
       markdown={CONSULTAR_PEDIDOS_MARKDOWN}
       summary={CONSULTAR_PEDIDOS_SUMMARY}
       pagination={CONSULTAR_PEDIDOS_ACTIONS}

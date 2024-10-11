@@ -4,7 +4,7 @@ import { INICIAR_SEPARACAO_ACTIONS, INICIAR_SEPARACAO_MARKDOWN, INICIAR_SEPARACA
 export default function IniciarSeparacao() {
   return (
     <MainContent
-      breadCrumb={[{ title: "Iniciar separação do pedido" }]}
+      breadCrumb={[{ title: "Vendas" }, { title: "Iniciar separação do pedido" }]}
       markdown={INICIAR_SEPARACAO_MARKDOWN}
       summary={INICIAR_SEPARACAO_SUMMARY}
       pagination={INICIAR_SEPARACAO_ACTIONS}
