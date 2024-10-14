@@ -33,7 +33,7 @@ Se o chip de telemetria ainda não estiver vinculado ao rastreador, essa ação 
 
 ## Equipamentos Prontos
 
-A seção de **Equipamentos Finalizados** exibe uma tabela com todos os aparelhos selecionados, juntamente com informações como *número de telefone* e *operadora*. O usuário pode selecionar qualquer registro nesta tabela para editar as informações, caso necessário.
+A tabela de **equipamentos prontos** exibe uma tabela com todos os aparelhos selecionados, juntamente com informações como *IMEI*, *número de telefone* e *operadora*. O usuário pode selecionar qualquer registro nesta tabela para editar as informações, caso necessário.
 
 ![Tabela de equipamentos finalizados](/images/vendas/iniciar-separacao/03.webp)
 
