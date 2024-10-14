@@ -1,64 +1,69 @@
 export const INICIAR_SEPARACAO_MARKDOWN = `
- # Iniciar separação do pedido
+# Iniciar separação do pedido
 
-O fluxo de vendas do sistema Boltech consiste em diversas etapas que garantem que todas as informações necessárias para o devido controle sejam registradas no sistema.
+A área de **separação** é destinada ao responsável pela seleção do equipamento a ser enviado ao técnico ou entregue em mãos ao cliente. Nesta seção, você encontrará informações relevantes sobre o processo de separação, desde dados básicos do cliente e pedido até a escolha e preparação do equipamento.
 
-## Fluxo de Venda
+>**Importante**: Esta página só pode ser acessada ao clicar em um pedido de venda já existente.
+---
 
-O processo de venda segue os seguintes passos:
+## Dados da Separação
 
-1. Cadastro do cliente
-2. Definição do tipo do aparelho e quantidade
-3. Seleção do plano
-4. Aplicação de descontos ou acréscimos
-5. Cadastro do veículo
-6. Agendamento da instalação
-7. Seleção do equipamento para venda
-8. Checklist da expedição
-9. Recebimento dos valores
-10. Envio de contrato digital para assinatura
-11. Teste do aparelho durante a instalação no veículo
-12. Coleta de fotos e dados da instalação
-13. Conclusão do pedido
+Esta seção inicial apresenta um resumo das informações essenciais relacionadas ao pedido. Ela serve como uma visão geral, permitindo que o usuário tenha acesso rápido aos dados mais relevantes antes de prosseguir com o fluxo de trabalho.
 
-É necessário que todos esses passos sejam concluídos para que o sistema considere a venda como finalizada.
 
-## Cadastro do Cliente
+![Cabeçalho de informações do pedido](/images/vendas/iniciar-separacao/01.webp)
+>**Observação**: Este componente é exibido em todas as abas relacionadas ao **fluxo de venda** quando o usuário clica em um pedido de venda já existente.
 
-O primeiro passo é garantir que o cliente esteja cadastrado no sistema. O cadastro pode ser realizado das seguintes maneiras:
+---
 
-- **Manual:** Através do menu "Cadastro > Cliente > Registrar novo cliente".
-- **Cadastro automático:** Via link de cadastro enviado para o cliente, onde ele preenche um formulário com os dados necessários.
-- **Diretamente no fluxo de vendas:** Ao preencher os campos na aba "Dados" e clicar em "salvar", o cliente é automaticamente cadastrado.
-- **Lead captado via Landing Page.**
+## Seleção de Equipamento
 
-Para cadastros realizados pelo link ou como Lead, o pedido aparecerá automaticamente na lista do fluxo de vendas, permitindo iniciar ou continuar o processo.
+Na seção de **seleção de equipamento**, que é acessada após a escolha de um pedido de venda, o vendedor encontra um checklist com os itens necessários para a embalagem do aparelho, como: *rastreador*, *chicote*, *relé*, *fusível*, *manual*, *contrato* e *etiqueta de garantia*. Esses itens são essenciais para assegurar que todos os componentes necessários para a instalação e o funcionamento estejam disponíveis.
 
-## Tipo do Aparelho e Quantidade
+![Seção de seleção de equipamento](/images/vendas/iniciar-separacao/02.webp)
 
-Na aba "Dados" dentro do fluxo de vendas, o usuário deve selecionar o tipo de equipamento e a quantidade desejada. Atualmente, o sistema permite apenas **um tipo de equipamento por pedido de venda**.
+Ao marcar cada item do checklist, o sistema registra automaticamente a *data*, *hora* e o *usuário* responsável pela ação. Abaixo do checklist, o separador pode selecionar os *IMEIs* dos dispositivos associados ao pedido de venda atual, garantindo que apenas os que correspondem ao tipo previamente definido sejam exibidos. Essa funcionalidade é crucial, pois permite que o vendedor distribua os IMEIs para todas as quantidades de equipamentos vinculadas ao pedido.
+
+Se o chip de telemetria ainda não estiver vinculado ao rastreador, essa ação pode ser realizada nesta mesma tela. O usuário deve inserir o *número de telefone* e a *operadora*, garantindo que todos os dados estejam corretamente vinculados.
+
+> **Atenção:** Caso o chip não tenha sido cadastrado previamente, ao finalizar o vínculo do chip com o aparelho, o sistema gerará uma pendência para que as informações faltantes sejam completadas posteriormente. É fundamental que o checklist seja concluído com todos os passos de separação, respeitando as regras estabelecidas, para garantir a precisão no atendimento ao cliente.
+
+
+---
+
+## Equipamentos Prontos
+
+A seção de **Equipamentos Finalizados** exibe uma tabela com todos os aparelhos selecionados, juntamente com informações como *número de telefone* e *operadora*. O usuário pode selecionar qualquer registro nesta tabela para editar as informações, caso necessário.
+
+![Tabela de equipamentos finalizados](/images/vendas/iniciar-separacao/03.webp)
+
+> **Atenção:** A seleção de equipamentos e todas as etapas do fluxo de venda devem ser realizadas com atenção para evitar erros e desencontros de informações.
+
+---
+
+## Funcionalidades Adicionais
+
+### Edição de Equipamentos
+
+Após a seleção e finalização dos equipamentos, é possível editar os detalhes de qualquer aparelho diretamente na tabela de **Equipamentos Finalizados**, garantindo que as informações estejam sempre corretas e atualizadas.
 `
 
 export const INICIAR_SEPARACAO_SUMMARY = [
   {
-    title: "Visão geral",
-    url: "#visão-geral"
+    title: "Dados da separação",
+    url: "#dados-da-separação"
   },
   {
-    title: "Primeiros passos no sistema",
-    url: "#primeiros-passos-no-sistema"
+    title: "Seleção de equipamento",
+    url: "#seleção-de-equipamento"
   },
   {
-    title: "Configurações iniciais",
-    url: "#configurações-iniciais"
+    title: "Equipamentos prontos",
+    url: "#equipamentos-prontos"
   },
   {
-    title: "Conclusão",
-    url: "#conclusão"
-  },
-  {
-    title: "Considerações finais",
-    url: "#considerações-finais"
+    title: "Funcionalidades adicionais",
+    url: "#funcionalidades-adicionais"
   },
 ]
 

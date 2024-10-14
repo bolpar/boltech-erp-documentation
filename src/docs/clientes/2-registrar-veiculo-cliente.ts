@@ -1,16 +1,15 @@
 export const REGISTRAR_VEICULO_CLIENTE_MARKDOWN = `
-# Veículo
+# Registrar o veículo do cliente
 
 A página **veículo** é essencial para visualizar e gerenciar as informações dos veículos associados ao cliente. Nesta seção, você encontrará uma tabela com detalhes dos veículos, um mapa com a localização atual e informações detalhadas sobre cada veículo.
->**Observação**: Esta página está disponível **apenas para visualização e edição**. Para vincular um veículo a um cliente, acesse **Cadastro > Veículo**.
+>**Observação**: Esta página está disponível **somente para visualização e edição**, caso o cliente já possua um vínculo com um veículo no sistema. Para vincular um veículo a um cliente, acesse **Cadastro > Veículo**.
 ---
 
 ## Veículos do Cliente
 
-A tabela com todos os veículos vinculados ao cliente, apresentando informações essenciais como **placa**, **BT**, **data de instalação**, **bloqueio** e **observações**. Para visualizar um veículo no mapa, clique no **ícone de mapa de localização** na linha correspondente, permitindo acessar detalhes do veículo e sua posição na seção abaixo. Para visualizar todos os veículos simultaneamente no mapa, clique no botão **Mostrar todos no mapa**.
+A tabela com todos os veículos vinculados ao cliente, apresenta informações essenciais como *placa*, *BT*, *data de instalação*, *bloqueio* e *observações*. Para visualizar um veículo no mapa, clique no **ícone de mapa de localização** na linha correspondente, permitindo acessar detalhes do veículo e sua posição na seção abaixo. Para visualizar todos os veículos simultaneamente no mapa, clique no botão "**Mostrar todos no mapa**".
 
 ![Tabela de veículos do cliente](/images/clientes/registrar-veiculo-cliente/01.webp)
->**Importante**: Para acessar esta página, é necessário que já exista um veículo vinculado ao cliente. Para cadastrar novos veículos, navegue até **Cadastro > Veículo**.
 
 ---
 
@@ -21,15 +20,27 @@ Abaixo da tabela, a seção acompanhamento do veículo apresenta um mapa interat
 ![Mapa de acompanhamento do veículo](/images/clientes/registrar-veiculo-cliente/02.webp)
 
 ### Detalhes do veículo
-No canto superior direito do mapa, você encontrará o **botão detalhes**. Ao clicar neste botão, uma caixa se expande, fornecendo informações adicionais sobre o veículo, como **ignição**, **corte**, **alimentação**, **sinal GPS**, **velocidade** , **v. alimentação**, **data/hora rastreador** e **data/hora servidor**. Além disso, há opções para **desbloquear/bloquear**, um botão para **acionar comandos** e outro para acessar o **histórico do veículo**.
+No canto superior direito do mapa, você encontrará o "**botão detalhes**". Ao clicar neste botão, uma caixa se expande, fornecendo informações adicionais sobre o veículo, como *ignição*, *corte*, *alimentação*, *sinal GPS*, *velocidade* , *v. alimentação*, *data/hora rastreador* e *data/hora servidor*.
 
-![Descrição do GIF](/images/clientes/registrar-veiculo-cliente/04.gif)
+![Gif de ações do veículo](/images/clientes/registrar-veiculo-cliente/04.gif)
+
+Além disso, é disponível várias opções para gerenciar o veículo:
+
+- **Bloqueio e Desbloqueio**: Permite bloquear ou desbloquear o veículo do cliente.
+- **Comandos**: Acesso a uma lista de comandos específicos para comunicação com o veículo.
+- **Histórico**: Abre uma nova página com o histórico, contendo todos os pontos registrados pelo rastreador em relação ao veículo.
+
+
+### Histórico do veículo
+Ao clicar no "**botão histórico**" na tela de detalhes do mapa, você será direcionado para uma nova página que apresenta uma tabela detalhada com o histórico do veículo selecionado. Esta tabela inclui informações relevantes, como o *status da ligação*, o *status das coordenadas no GPS*, a *velocidade do veículo em km/h*, além das *datas* e *horas da conexão* e do *GPS*.
+
+![Seção de histórico](/images/clientes/registrar-veiculo-cliente/05.webp)
 
 ---
 
 ## Informações do Veículo
 
-A última seção, reúne todos os dados detalhados sobre o veículo, incluindo alimentação, sinal GPS, velocidade, voltagem de alimentação, além das datas/hora do rastreador e do servidor. Os usuários têm a opção de desbloquear ou bloquear o veículo conforme necessário.
+Nesta seção, você pode visualizar e editar todos os detalhes referente ao veículo selecionado anteriormente na tabela da primeira seção.
 
 ![Informações detalhadas do veículo](/images/clientes/registrar-veiculo-cliente/03.webp)
 

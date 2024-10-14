@@ -14,13 +14,13 @@ Esta seção é destinada ao preenchimento das informações básicas do cliente
 - **Inscrição Estadual**: para empresas que vendem produtos (IE) (Opcional)
 - **Inscrição Municipal**: para prestadoras de serviços (IM) (Opcional)
 
->**Observação**: Em caso de isenção, inscrição estadual e municipal são opcionais no cadastro do cliente.
+>**Observação**: Em caso de isenção ou cadastro de cliente com CPF, inscrição estadual e municipal são opcionais no cadastro do cliente.
 
 ---
 
 ## Contatos do Cliente
 
-Preencha as informações básicas do cliente, como nome, tipo de cliente e documentos. Além disso, esta seção permite registrar contatos diretos ou adicionar mais contatos relacionados, como empresas ou terceiros. Para cadastrar múltiplos contatos, basta clicar no botão **Adicionar mais contato**. Também é possível selecionar os tipos de notificação que serão direcionados ao cliente cadastrado, garantindo uma comunicação eficiente.
+Preencha as informações básicas do cliente, como nome, tipo de cliente e documentos. Além disso, esta seção permite registrar contatos diretos ou adicionar mais contatos relacionados, como empresas ou terceiros. Para cadastrar múltiplos contatos, basta clicar no botão "**Adicionar mais Contato**". Também é possível selecionar os tipos de notificação que serão direcionados ao cliente cadastrado, garantindo uma comunicação eficiente.
 
 ![Fieldset contatos do cliente](/images/clientes/novo-cliente/02.webp)
 
@@ -28,7 +28,7 @@ Preencha as informações básicas do cliente, como nome, tipo de cliente e docu
 
 ## Endereços do Cliente
 
-Nesta seção, é possível cadastrar os endereços do cliente ou de terceiros. Você pode adicionar múltiplos endereços clicando no botão **Adicionar mais endereço**, assim como na seção de contatos, para assegurar que todos os dados estejam devidamente registrados.
+Nesta seção, é possível cadastrar os endereços do cliente ou de terceiros. Você pode adicionar múltiplos endereços clicando no botão "**Adicionar mais Endereço**", assim como na seção de contatos, para assegurar que todos os dados estejam devidamente registrados.
 
 ![Fieldset endereços do cliente](/images/clientes/novo-cliente/03.webp)
 
@@ -41,7 +41,7 @@ Nesta seção, é possível cadastrar os endereços do cliente ou de terceiros. 
 A seção de comissão controla o valor que será atribuido para o **representante** e **vendedor** correspondente ao cliente.
 
 ![Fieldset comissões do cliente](/images/clientes/novo-cliente/04.webp)
-> Observação: Para preencher uma comissão, é necessário que o sistema já possua vendedores e representantes cadastrados. Para cadastrar um vendedor, acesse **Cadastro > Vendedor**, e para cadastrar um representante, acesse **Cadastro > Representante**.
+>**Observação**: Para preencher uma comissão, é necessário que o sistema já possua vendedores e representantes cadastrados. Para cadastrar um vendedor, acesse **Cadastro > Vendedor**, e para cadastrar um representante, acesse **Cadastro > Representante**.
 
 ---
 
@@ -52,7 +52,7 @@ Ao completar a seção de novo cliente, você terá uma visão abrangente e orga
 ## Funcionalidades adicionais
 
 ### Edição de Cliente
-Na tabela da página anterior intitulada "Clientes", localize o cliente desejado e clique no **ícone de lápis** para editar as informações do cadastro. Atualize rapidamente os dados conforme necessário, garantindo que as informações estejam sempre corretas e atualizadas.
+Na tabela da página anterior intitulada **Clientes**, localize o cliente desejado e clique no **ícone de lápis** para editar as informações do cadastro. Atualize rapidamente os dados conforme necessário, garantindo que as informações estejam sempre corretas e atualizadas.
 `
 
 export const NOVO_CLIENTE_SUMMARY = [
@@ -80,11 +80,11 @@ export const NOVO_CLIENTE_SUMMARY = [
 
 export const NOVO_CLIENTE_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução ao fluxo de cliente",
+    url: "/clientes/introducao"
   },
   next: {
-    title: "Criar orçamento de pedido",
-    url: "/vendas/novo-orcamento"
+    title: "Registrar o veículo do cliente",
+    url: "/clientes/registrar-veiculo-cliente"
   }
 }

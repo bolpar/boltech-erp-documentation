@@ -9,7 +9,7 @@ A página **financeiro** é fundamental para acompanhar e gerenciar a situação
 
 ## Resumo Financeiro do Cliente
 
-No topo da página, diversos cards exibem informações financeiras essenciais, como Faturas Pagas, Recebido, A Receber e o Total. Esses cards oferecem uma visão rápida e clara do estado financeiro do cliente.
+No topo da página, diversos cards exibem informações financeiras essenciais, como *faturas pagas*, *recebido*, *a receber* e *total*. Esses cards oferecem uma visão rápida e clara do estado financeiro do cliente.
 
 ![Dados do cliente](/images/clientes/financeiro/01.webp)
 
@@ -17,7 +17,7 @@ No topo da página, diversos cards exibem informações financeiras essenciais, 
 
 ## Tabela de Faturas
 
-Abaixo dos cards, uma tabela apresenta as faturas do cliente, organizada em colunas que incluem **parcelas**, **data de emissão**, **data do vencimento**, **data do pagamento**, **valor**, **juros**, **multa**, **valor pago** e **status**. É possível exportar o relatório usando o botão **Exportar relatório**, além de filtrar as faturas por **condição**, **data de emissão** e **data de vencimento**.
+Abaixo dos cards, uma tabela apresenta as faturas do cliente, organizada em colunas que incluem *parcelas*, *data de emissão*, *data do vencimento*, *data do pagamento*, *valor*, *juros*, *multa*, *valor pago* e *status*. É possível exportar o relatório usando o botão "**Exportar relatório**", além de filtrar as faturas por *condição*, *data de emissão* e *data de vencimento*.
 
 ![Tabela de faturas](/images/clientes/financeiro/02.webp)
 
@@ -29,15 +29,19 @@ Na mesma linha da fatura, você encontrará dois ícones: um para visualizar det
 
 ### Detalhes da fatura
 
-Ao clicar no **ícone de olho**, uma modal se abre, mostrando informações detalhadas sobre a fatura, incluindo **informações gerais**, **detalhes das notificações** e **histórico**.
+Ao clicar no **ícone de olho**, uma modal se abre, mostrando informações detalhadas sobre a fatura, incluindo *informações gerais*, *detalhes das notificações* e *histórico*.
 
 ![Painel de detalhes da fatura](/images/clientes/financeiro/03.gif)
 
->**Observação**: Os botões **Editar** e **Deletar** só aparecem em caso da fatura estar em aberto.
+>**Observação**: Os botões *editar* e *deletar* **só aparecem em caso da fatura estar em aberto**.
 
 ### Pagar fatura
 
 Ícone de Moedas na Mão: Use este ícone para efetuar o pagamento da fatura rapidamente.
+
+---
+
+Agora, você está pronto para acompanhar a situação financeira do cliente, visualizando faturas pagas e pendentes, acessando detalhes de cada fatura e realizando pagamentos de forma rápida e eficiente.
 `
 
 export const CLIENTE_FINANCEIRO_SUMMARY = [

@@ -3,7 +3,7 @@ export const INTRODUCAO_VENDAS_MARKDOWN = `
 
 O **fluxo de vendas** é o conjunto de etapas que transforma uma oportunidade em uma venda. No Boltech ERP, esse processo abrange desde o primeiro contato com o cliente até a instalação e ativação do equipamento.
 
-Nesta seção da documentação, você será guiado de forma prática por cada fase do processo: **orçamento**, **agendamento da instalação**, **separação do equipamento**, **recebimento**, **assinatura do contrato** e **teste do rastreador**. Nosso objetivo é tornar cada etapa clara e direta, para que você conduza a venda de forma eficiente e sem complicações.
+Nesta seção da documentação, você será guiado de forma prática por cada fase do processo: *orçamento*, *agendamento da instalação*, *separação do equipamento*, *recebimento*, *assinatura do contrato* e *teste do rastreador*. Ao final, você terá um entendimento claro sobre como conduzir cada etapa da venda de forma eficiente.
 
 ---
 

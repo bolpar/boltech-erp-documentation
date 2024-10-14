@@ -1,9 +1,9 @@
 export const INTRODUCAO_CLIENTE_MARKDOWN = `
 # Introdução ao Fluxo de Clientes
 
-O **fluxo de clientes** no Boltech ERP é o núcleo central para o gerenciamento e acompanhamento de todas as informações relacionadas aos seus clientes. Esse processo é dividido em etapas que facilitam tanto a visualização dos dados gerais quanto o cadastro detalhado das informações de cada cliente.
+O **fluxo de clientes** no Boltech ERP envolve as etapas de gerenciamento relacionados ao cliente, desde o cadastro até o acompanhamento contínuo de suas necessidades e histórico dentro do sistema.
 
-Nesta seção da documentação, você será guiado de forma prática por cada aba do fluxo de clientes: **clientes**, **dados**, **veículo** e **financeiro**. Nosso objetivo é tornar cada etapa clara e direta, para que você gerencie as informações dos seus clientes de maneira eficiente e sem complicações.
+Nesta seção da documentação, você será guiado de forma prática por cada aba do fluxo de clientes: **clientes**, **dados**, **veículo** e **financeiro**. Ao final, você terá um entendimento completo sobre como gerenciar as informações dos seus clientes de maneira eficaz.
 
 ---
 
@@ -43,7 +43,7 @@ export const INTRODUCAO_CLIENTE_ACTIONS = {
     url: ""
   },
   next: {
-    title: "Criar orçamento de pedido",
-    url: "/vendas/novo-orcamento"
+    title: "Criar cliente",
+    url: "/clientes/novo-cliente"
   }
 }
