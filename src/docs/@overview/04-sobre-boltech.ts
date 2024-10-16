@@ -26,13 +26,12 @@ Somos especialistas em rastreamento de veículos utilizando Chip de Telemetria. 
 
 ## Nossos Diferenciais
 
-**Instaladores Profissionais:** Nossa equipe é composta por especialistas atualizados com as últimas tecnologias do setor de proteção veicular.
-**Link de Compartilhamento:** Oferecemos a opção de gerar um link para compartilhar sua viagem, garantindo agilidade e segurança.
-**Instalação Grátis:** Disponibilizamos planos sem taxa de adesão ou instalação, facilitando o acesso ao nosso serviço.
-**Plataforma Própria:** Todo o nosso sistema e aplicativo são desenvolvidos internamente, permitindo serviços de alta qualidade a preços competitivos.
-**Suporte Humanizado:** Nosso time é treinado para oferecer um atendimento profissional e empático, sempre pronto para ajudar.
-**Melhoria Contínua:** Estamos constantemente aprimorando nosso sistema com base no feedback dos clientes, buscando solucionar as principais demandas do mercado.
-
+- **Instaladores Profissionais**: Nossa equipe é composta por especialistas atualizados com as últimas tecnologias do setor de proteção veicular.
+- **Link de Compartilhamento**: Oferecemos a opção de gerar um link para compartilhar sua viagem, garantindo agilidade e segurança.
+- **Instalação Grátis**: Disponibilizamos planos sem taxa de adesão ou instalação, facilitando o acesso ao nosso serviço.
+- **Plataforma Própria**: Todo o nosso sistema e aplicativo são desenvolvidos internamente, permitindo serviços de alta qualidade a preços competitivos.
+- **Suporte Humanizado**: Nosso time é treinado para oferecer um atendimento profissional e empático, sempre pronto para ajudar.
+- **Melhoria Contínua**: Estamos constantemente aprimorando nosso sistema com base no feedback dos clientes, buscando solucionar as principais demandas do mercado.
 ## A BolTech e o Grupo Bolpar
 
 A BolTech é parte do grupo Bolpar, uma empresa de destaque no atacado de acessórios automotivos, localizada em Curitiba há mais de 17 anos. Com uma sede própria no bairro Hauer, atendemos mais de 2.000 clientes ativos no Paraná, Santa Catarina e Rio Grande do Sul, oferecendo um portfólio diversificado com mais de 4.000 itens das maiores marcas do mercado.
