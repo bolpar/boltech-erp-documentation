@@ -1,63 +1,46 @@
 export const CONSULTAR_PEDIDOS_MARKDOWN = `
- # Consultar pedidos de venda
+# Consultar Pedidos de Venda
 
-O fluxo de vendas do sistema Boltech consiste em diversas etapas que garantem que todas as informações necessárias para o devido controle sejam registradas no sistema.
+A página de **consulta de pedidos de venda** é o ponto de partida para gerenciar as vendas no sistema. Nela, você encontra uma lista organizada de pedidos, permitindo uma visão clara e rápida das informações essenciais.
 
-## Fluxo de Venda
+---
 
-O processo de venda segue os seguintes passos:
-1. Cadastro do cliente
-2. Definição do tipo do aparelho e quantidade
-3. Seleção do plano
-4. Aplicação de descontos ou acréscimos
-5. Cadastro do veículo
-6. Agendamento da instalação
-7. Seleção do equipamento para venda
-8. Checklist da expedição
-9. Recebimento dos valores
-10. Envio de contrato digital para assinatura
-11. Teste do aparelho durante a instalação no veículo
-12. Coleta de fotos e dados da instalação
-13. Conclusão do pedido
+## Tabela de Pedidos
 
-É necessário que todos esses passos sejam concluídos para que o sistema considere a venda como finalizada.
+A tabela exibe todos os pedidos de venda com detalhes como *número do pedido*, *cliente*, *CPF/CNPJ*, *situação* e *data de criação*. Para agilizar a localização, a página oferece uma barra de pesquisa e filtros que refinam os resultados por data e situação, facilitando a gestão dos pedidos.
 
-## Cadastro do Cliente
+![Tabela de pedidos](/images/vendas/consultar-pedidos/01.webp)
 
-O primeiro passo é garantir que o cliente esteja cadastrado no sistema. O cadastro pode ser realizado das seguintes maneiras:
+---
 
-- **Manual:** Através do menu "Cadastro > Cliente > Registrar novo cliente".
-- **Cadastro automático:** Via link de cadastro enviado para o cliente, onde ele preenche um formulário com os dados necessários.
-- **Diretamente no fluxo de vendas:** Ao preencher os campos na aba "Dados" e clicar em "salvar", o cliente é automaticamente cadastrado.
-- **Lead captado via Landing Page.**
+## Visualização e Edição de Pedidos
 
-Para cadastros realizados pelo link ou como Lead, o pedido aparecerá automaticamente na lista do fluxo de vendas, permitindo iniciar ou continuar o processo.
+### Visualizando o Pedido de Venda
 
-## Tipo do Aparelho e Quantidade
+Ao clicar no **ícone de olho**, um painel se abre com todos os detalhes do pedido, incluindo dados da instalação e informações do equipamento. Esse painel foi projetado para fornecer uma visão completa e organizada de cada pedido.
 
-Na aba "Dados" dentro do fluxo de vendas, o usuário deve selecionar o tipo de equipamento e a quantidade desejada. Atualmente, o sistema permite apenas **um tipo de equipamento por pedido de venda**.
+![Painel de visualização do pedido mockado](/images/vendas/consultar-pedidos/02.gif)
+
+### Editando o Pedido de Venda
+
+Para editar um pedido, basta selecionar o ícone de edição, que direciona diretamente para o fluxo de vendas com os detalhes do pedido já carregados, facilitando qualquer ajuste necessário.
 `
 
 export const CONSULTAR_PEDIDOS_SUMMARY = [
   {
-    title: "Visão geral",
-    url: "#visão-geral"
+    title: "Tabela de Pedidos",
+    url: "#tabela-de-pedidos"
   },
   {
-    title: "Primeiros passos no sistema",
-    url: "#primeiros-passos-no-sistema"
-  },
-  {
-    title: "Configurações iniciais",
-    url: "#configurações-iniciais"
-  },
-  {
-    title: "Conclusão",
-    url: "#conclusão"
-  },
-  {
-    title: "Considerações finais",
-    url: "#considerações-finais"
+    title: "Visualização e edição",
+    url: "#primeiros-passos-no-sistema",
+    subLinks: [{
+      title: "Visualizando o pedido de venda",
+      url: "#visualizando-o-pedido-de-venda"
+    }, {
+      title: "Editando o pedido de venda",
+      url: "#editando-o-pedido-de-venda"
+    }]
   },
 ]
 

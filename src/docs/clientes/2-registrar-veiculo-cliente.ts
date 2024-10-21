@@ -64,15 +64,26 @@ export const REGISTRAR_VEICULO_CLIENTE_SUMMARY = [
   },
   {
     title: "Acompanhamento do veículo",
-    url: "#acompanhamento-do-veículo"
+    url: "#acompanhamento-do-veículo",
+    subLinks: [{
+      title: "Detalhes do veículo",
+      url: "#detalhes-do-veículo",
+    }, {
+      title: "Histórico do veículo",
+      url: "#histórico-do-veículo"
+    }]
   },
   {
     title: "Informações do veículo",
-    url: "#informações-do-veículo"
+    url: "#informações-do-veículo",
   },
   {
     title: "Funcionalidades adicionais",
-    url: "#funcionalidades-adicionais"
+    url: "#funcionalidades-adicionais",
+    subLinks: [{
+      title: "Edição de dados do veículo",
+      url: "#edição-de-dados-do-veículo"
+    }]
   },
 ]
 

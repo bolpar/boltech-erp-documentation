@@ -1,64 +1,92 @@
 export const TESTAR_EQUIPAMENTO_MARKDOWN = `
- # Testar equipamento
+# Testar Equipamento
 
-O fluxo de vendas do sistema Boltech consiste em diversas etapas que garantem que todas as informações necessárias para o devido controle sejam registradas no sistema.
+A página **Teste de Equipamento** é uma etapa essencial do fluxo de vendas. Aqui, associamos o rastreador ao veículo do cliente e validamos seu funcionamento.
 
-## Fluxo de Venda
+---
 
-O processo de venda segue os seguintes passos:
+## Informações do Pedido
 
-1. Cadastro do cliente
-2. Definição do tipo do aparelho e quantidade
-3. Seleção do plano
-4. Aplicação de descontos ou acréscimos
-5. Cadastro do veículo
-6. Agendamento da instalação
-7. Seleção do equipamento para venda
-8. Checklist da expedição
-9. Recebimento dos valores
-10. Envio de contrato digital para assinatura
-11. Teste do aparelho durante a instalação no veículo
-12. Coleta de fotos e dados da instalação
-13. Conclusão do pedido
+Nesta seção, são exibidos os detalhes do pedido selecionado na página **Vendas**. Informações como *nome do cliente*, *número do pedido*, *placa do veículo*, *tipo de veículo* e *técnico responsável* são apresentadas para revisão.
 
-É necessário que todos esses passos sejam concluídos para que o sistema considere a venda como finalizada.
+![Cabeçalho do pedido](/images/vendas/testar-equipamento/01.webp)
 
-## Cadastro do Cliente
+---
 
-O primeiro passo é garantir que o cliente esteja cadastrado no sistema. O cadastro pode ser realizado das seguintes maneiras:
+## Teste de Conexão e Localização
 
-- **Manual:** Através do menu "Cadastro > Cliente > Registrar novo cliente".
-- **Cadastro automático:** Via link de cadastro enviado para o cliente, onde ele preenche um formulário com os dados necessários.
-- **Diretamente no fluxo de vendas:** Ao preencher os campos na aba "Dados" e clicar em "salvar", o cliente é automaticamente cadastrado.
-- **Lead captado via Landing Page.**
+Selecione a placa e o IMEI do rastreador. Após clicar em **"Consultar"**, as comunicações entre o rastreador e o veículo são exibidas ao redor do mapa abaixo.
 
-Para cadastros realizados pelo link ou como Lead, o pedido aparecerá automaticamente na lista do fluxo de vendas, permitindo iniciar ou continuar o processo.
+![Mapa de localização do veículo](/images/vendas/testar-equipamento/02.webp)
 
-## Tipo do Aparelho e Quantidade
+### Detalhes do veículo
+No canto superior direito do mapa, você encontrará o **"botão detalhes"**. Ao clicar neste botão, uma caixa se expande, fornecendo informações adicionais sobre o veículo, como *ignição*, *corte*, *alimentação*, *sinal GPS*, *velocidade*, *v. alimentação*, *data/hora rastreador* e *data/hora servidor*.
 
-Na aba "Dados" dentro do fluxo de vendas, o usuário deve selecionar o tipo de equipamento e a quantidade desejada. Atualmente, o sistema permite apenas **um tipo de equipamento por pedido de venda**.
+![Gif de detalhes do veículo](/images/vendas/testar-equipamento/03.gif)
+
+Além disso, é disponível várias opções para gerenciar o veículo:
+
+- **Bloqueio e Desbloqueio**: Permite bloquear ou desbloquear o veículo do cliente.
+- **Comandos**: Acesso a uma lista de comandos específicos para comunicação com o veículo.
+- **Histórico**: Abre uma nova página com o histórico, contendo todos os pontos registrados pelo rastreador em relação ao veículo.
+
+---
+
+## Validação e Evidências do Teste
+
+Aqui, você registra informações adicionais e faz o upload de fotos da instalação. Isso valida o teste e documenta visualmente o processo, garantindo a qualidade do serviço.
+
+![Seção de teste de conexão e localização](/images/vendas/testar-equipamento/04.webp)
+
+---
+
+## Histórico de Testes
+
+A tabela histórico de testes mantém um registro de todos os rastreadores testados, incluindo *IMEI*, *placa do veículo*, *status do bloqueio* e *localização*. Isso proporciona controle e fácil consulta sobre as operações realizadas.
+
+![Tabela de histórico de testes](/images/vendas/testar-equipamento/05.webp)
+
+---
+
+Ao seguir essas etapas, você garante que todas as informações e evidências do teste do rastreador estejam organizadas e acessíveis, facilitando o atendimento ao cliente.
+
+---
+
+## Funcionalidades Adicionais
+
+### Edição de Dados do Teste
+
+Ao clicar no **ícone de lápis** na linha do teste correspondente na **tabela de histórico de testes**, você poderá editar facilmente as informações relacionadas ao teste do equipamento. Isso permite uma atualização rápida e precisa dos dados, garantindo que todas as informações estejam sempre corretas.
 `
 
 export const TESTAR_EQUIPAMENTO_SUMMARY = [
   {
-    title: "Visão geral",
-    url: "#visão-geral"
+    title: "Informações do pedido",
+    url: "#informações-do-pedido"
   },
   {
-    title: "Primeiros passos no sistema",
-    url: "#primeiros-passos-no-sistema"
+    title: "Teste de conexão e localização",
+    url: "#primeiros-passos-no-sistema",
+    subLinks: [{
+      title: "Detalhes do veículo",
+      url: "#detalhes-do-veículo"
+    }]
   },
   {
-    title: "Configurações iniciais",
-    url: "#configurações-iniciais"
+    title: "Validação e evidências do teste",
+    url: "#validação-e-evidências-do-teste"
   },
   {
-    title: "Conclusão",
-    url: "#conclusão"
+    title: "Histórico de testes",
+    url: "#histórico-de-testes"
   },
   {
-    title: "Considerações finais",
-    url: "#considerações-finais"
+    title: "Funcionalidades adicionais",
+    url: "#funcionalidades-adicionais",
+    subLinks: [{
+      title: "Edição de dados do teste",
+      url: "#edição-de-dados-do-teste"
+    }]
   },
 ]
 

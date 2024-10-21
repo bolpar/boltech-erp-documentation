@@ -1,17 +1,16 @@
 export const NOVO_ORCAMENTO_MARKDOWN = `
 # Preencher dados e selecionar plano
 
-A página **dados e plano** é o primeiro passo do fluxo de uma venda. Esta etapa inicia o processo de venda, onde são coletados os dados iniciais do cliente, seleção do plano, tipo do equipamentos e quantidade.
+A página **Dados e Plano** é o primeiro passo do fluxo de uma venda. Esta etapa inicia o processo de venda, onde são coletados os dados iniciais do cliente, seleção do plano, tipo do equipamentos e quantidade.
 
 ---
 
 ## Informações Básicas
-Nesta seção, você **registra ou busca o perfil do cliente**, preenchendo dados fundamentais como nome, e-mail, telefone e tipo de cliente (pessoa física ou jurídica). É possível preencher os dados de um cliente já existente no sistema, ou, caso necessário, cadastrar um novo lead, iniciando assim um novo contato no processo de vendas.
+Nesta seção, você **registra ou busca o perfil do cliente**, preenchendo dados fundamentais. É possível preencher os dados de um cliente já existente no sistema, ou, caso necessário, cadastrar um novo lead, iniciando assim um novo contato no processo de vendas.
 
 ![Fieldset Informações Básicas](/images/novo-orcamento/01.webp)
 - **Pesquisar cliente existente**: Campo para buscar um cliente já cadastrado. Se preenchido, os dados do cliente são automaticamente preenchidos.
 - **Publicidade**: Campo para indicar a origem do contato com o cliente.
-- **Vendedor**: Selecione o vendedor responsável pelo atendimento deste cliente.
 
 >**Terminologia**: Um lead é um potencial cliente que demonstrou interesse em um produto ou serviço.
 ---
@@ -52,7 +51,7 @@ Ao seguir os passos acima, você terá um orçamento concluído em nosso sistema
 ## Funcionalidades Adicionais
 ### Edição de Orçamento de Venda
 
-Encontre o orçamento desejado na tabela da página "**Vendas**" no fluxo de vendas. Ao localizar o pedido, clique no **ícone de lápis** para editar rapidamente todas as informações do orçamento, ajustando conforme necessário.
+Encontre o orçamento desejado na tabela da página **Vendas** no fluxo de vendas. Ao localizar o pedido, clique no **ícone de lápis** para editar rapidamente todas as informações do orçamento, ajustando conforme necessário.
 `
 
 export const NOVO_ORCAMENTO_SUMMARY = [
@@ -78,7 +77,13 @@ export const NOVO_ORCAMENTO_SUMMARY = [
   },
   {
     title: "Funcionalidades adicionais",
-    url: "#funcionalidades-adicionais"
+    url: "#funcionalidades-adicionais",
+    subLinks: [
+      {
+        title: "Edição de orçamento de venda",
+        url: "#edição-de-orçamento-de-venda"
+      }
+    ]
   },
 ]
 

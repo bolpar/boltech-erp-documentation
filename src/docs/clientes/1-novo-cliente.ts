@@ -74,7 +74,11 @@ export const NOVO_CLIENTE_SUMMARY = [
   },
   {
     title: "Funcionalidades adicionais",
-    url: "#funcionalidades-adicionais"
+    url: "#funcionalidades-adicionais",
+    subLinks: [{
+      title: "Edição de cliente",
+      url: "#edição-de-cliente"
+    }]
   },
 ]
 

@@ -116,6 +116,10 @@ export const NAV_ITEMS = [
         title: 'Analisar o financeiro do cliente',
         path: '/clientes/financeiro',
       },
+      {
+        title: 'Consultar os serviços com o cliente',
+        path: '/clientes/consultar-servicos-cliente'
+      }
     ],
   },
   {
@@ -124,8 +128,16 @@ export const NAV_ITEMS = [
     icon: PackageIcon,
     subLinks: [
       {
-        title: 'Procurar por Fornecedor',
-        path: '/fornecedores',
+        title: 'Introdução ao fluxo de Fornecedores',
+        path: '/fornecedores/introducao',
+      },
+      {
+        title: 'Registrar um fornecedor',
+        path: '/fornecedores/novo-fornecedor',
+      },
+      {
+        title: 'Analisar o financeiro do fornecedor',
+        path: '/fornecedores/financeiro',
       },
     ],
   },

@@ -1,18 +1,16 @@
 export const INTRODUCAO_CLIENTE_MARKDOWN = `
 # Introdução ao Fluxo de Clientes
 
-O **fluxo de clientes** no Boltech ERP envolve as etapas de gerenciamento relacionados ao cliente, desde o cadastro até o acompanhamento contínuo de suas necessidades e histórico dentro do sistema.
-
-Nesta seção da documentação, você será guiado de forma prática por cada aba do fluxo de clientes: **clientes**, **dados**, **veículo** e **financeiro**. Ao final, você terá um entendimento completo sobre como gerenciar as informações dos seus clientes de maneira eficaz.
+O **Fluxo de Clientes** no Boltech ERP envolve as etapas de gerenciamento relacionados ao cliente, desde o cadastro até o acompanhamento contínuo de suas necessidades e histórico dentro do sistema. Ao final, você terá um entendimento completo sobre como gerenciar as informações dos seus clientes de maneira eficaz.
 
 ---
 
 ## O que você irá aprender
 
-Ao final da leitura da seção "Clientes", você estará preparado para gerenciar o cadastro de clientes e todas as informações associadas, com total confiança em cada passo. Confira abaixo todas as etapas que você irá compreender nesta seção:
+Ao final da leitura da seção **Clientes**, você estará preparado para gerenciar o cadastro de clientes e todas as informações associadas, com total confiança em cada passo. Confira abaixo todas as etapas que você irá compreender nesta seção:
 
 - **Clientes**: Nesta aba, você terá acesso a todos os clientes cadastrados no sistema, junto com um painel de BI (Business Intelligence) que fornece uma visão geral dos clientes e seus dados de maneira consolidada.
-- **Dados**: Esta aba é dedicada ao cadastro de novos clientes e à visualização detalhada das informações de cada cliente, incluindo contatos, endereços e valores de comissão.
+- **Dados**: Esta aba é dedicada ao cadastro de novos clientes e à visualização detalhada das informações de cada cliente, incluindo *contatos*, *endereços* e *valores de comissão*.
 - **Veículo**: Aqui, você pode cadastrar e visualizar todos os veículos associados ao cliente, além de acessar informações detalhadas sobre cada veículo. Esta aba também permite verificar o histórico de ações e realizar o bloqueio ou desbloqueio do veículo quando necessário.
 - **Financeiro**: Nesta seção, você encontra todo o histórico financeiro do cliente relacionado aos rastreadores. É possível monitorar pagamentos, pendências e outros detalhes financeiros diretamente vinculados ao contrato do cliente.
 
