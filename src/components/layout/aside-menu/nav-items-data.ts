@@ -10,7 +10,8 @@ import {
   SettingsIcon,
   ShoppingBasketIcon,
   UserCog,
-  UsersIcon
+  UsersIcon,
+  WrenchIcon
 } from 'lucide-react'
 
 export const NAV_ITEMS = [
@@ -119,6 +120,10 @@ export const NAV_ITEMS = [
       {
         title: 'Consultar os serviços com o cliente',
         path: '/clientes/consultar-servicos-cliente'
+      },
+      {
+        title: 'Consultar clientes',
+        path: '/clientes/consultar-clientes'
       }
     ],
   },
@@ -138,6 +143,33 @@ export const NAV_ITEMS = [
       {
         title: 'Analisar o financeiro do fornecedor',
         path: '/fornecedores/financeiro',
+      },
+      {
+        title: 'Consultar fornecedores',
+        path: '/fornecedores/consultar-fornecedores',
+      },
+    ],
+  },
+  {
+    title: 'Técnicos',
+    path: '/tecnicos',
+    icon: WrenchIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de técnicos',
+        path: '/tecnicos/introducao',
+      },
+      {
+        title: 'Registrar um técnico',
+        path: '/tecnicos/novo-tecnico',
+      },
+      {
+        title: 'Registrar um tipo de serviço',
+        path: '/tecnicos/novo-tipo-servico',
+      },
+      {
+        title: 'Consultar técnicos',
+        path: '/tecnicos/consultar-tecnicos',
       },
     ],
   },
@@ -160,7 +192,6 @@ export const NAV_ITEMS = [
       },
     ],
   },
-
   {
     title: 'Ordem de Serviço',
     path: '/comissao',

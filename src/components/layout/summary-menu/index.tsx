@@ -28,7 +28,7 @@ export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
 
               {item.subLinks?.map((subLink) => {
                 return (
-                  <a href={subLink.url} className="pl-4 text-neutral-400 hover:text-green-500">{subLink.title}</a>
+                  <a key={subLink.url} href={subLink.url} className="pl-4 text-neutral-400 hover:text-green-500">{subLink.title}</a>
                 )
               })}
             </li>
