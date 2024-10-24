@@ -1,5 +1,6 @@
 import {
   BoxesIcon,
+  CarIcon,
   ClipboardListIcon,
   FileBoxIcon,
   HandCoinsIcon,
@@ -170,6 +171,25 @@ export const NAV_ITEMS = [
       {
         title: 'Consultar técnicos',
         path: '/tecnicos/consultar-tecnicos',
+      },
+    ],
+  },
+  {
+    title: 'Veículos',
+    path: '/veiculos',
+    icon: CarIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de veículos',
+        path: '/veiculos/introducao',
+      },
+      {
+        title: 'Registrar um veículo',
+        path: '/veiculos/novo-veiculo',
+      },
+      {
+        title: 'Consultar veículos',
+        path: '/veiculos/consultar-veiculos',
       },
     ],
   },

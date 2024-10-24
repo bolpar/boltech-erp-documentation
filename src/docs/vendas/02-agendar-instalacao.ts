@@ -37,10 +37,10 @@ A tabela de agendamentos oferece uma visão clara e detalhada de todos os compro
 
 ## Funcionalidades Adicionais
 ### Edição de Agendamentos
-Caso seja necessário alterar algum detalhe de um agendamento, basta clicar no **ícone de lápis** na tabela para editar as informações de forma rápida e precisa.
+Caso seja necessário alterar algum detalhe de um agendamento, basta clicar em <img src="/images/pencil-line.png" alt="ícone de lápis" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> na tabela para editar as informações de forma rápida e precisa.
 
 ### Visualização de Detalhes do Agendamento
-Para visualizar os detalhes completos de um agendamento, clique no **ícone de olho**. Esta ação abrirá uma visão detalhada do agendamento, fornecendo todas as informações relevantes em um só lugar.
+Para visualizar os detalhes completos de um agendamento, clique em <img src="/images/eye.png" alt="ícone de olho" style="width: 36px; display: inline; margin: 0; vertical-align: middle;">. Esta ação abrirá uma visão detalhada do agendamento, fornecendo todas as informações relevantes em um só lugar.
 
 ### Notificação via WhatsApp
 Para proporcionar uma experiência mais integrada e eficiente, você pode enviar os detalhes do agendamento diretamente para o cliente via WhatsApp. Use o botão dedicado com o ícone da plataforma para compartilhar as informações de forma imediata.

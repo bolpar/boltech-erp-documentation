@@ -56,7 +56,7 @@ Ao seguir essas etapas, você garante que todas as informações e evidências d
 
 ### Edição de Dados do Teste
 
-Ao clicar no **ícone de lápis** na linha do teste correspondente na **tabela de histórico de testes**, você poderá editar facilmente as informações relacionadas ao teste do equipamento. Isso permite uma atualização rápida e precisa dos dados, garantindo que todas as informações estejam sempre corretas.
+Ao clicar em <img src="/images/pencil-line.png" alt="ícone de lápis" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> na linha do teste correspondente na **tabela de histórico de testes**, você poderá editar facilmente as informações relacionadas ao teste do equipamento. Isso permite uma atualização rápida e precisa dos dados, garantindo que todas as informações estejam sempre corretas.
 `
 
 export const TESTAR_EQUIPAMENTO_SUMMARY = [

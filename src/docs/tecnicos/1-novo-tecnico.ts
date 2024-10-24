@@ -1,7 +1,7 @@
 export const NOVO_TECNICO_MARKDOWN = `
 # Registrar um técnico
 
-O registro de técnico é uma etapa importante para garantir que todas as informações essenciais sobre os profissionais estejam devidamente registradas no sistema. Nesta seção, você encontrará desde dados básicos até detalhes de contato, endereços e informações de pagamento.
+A aba **registrar um técnico** é uma etapa importante para garantir que todas as informações essenciais sobre o profissional estejam devidamente registradas no sistema. Nesta seção, você encontrará desde dados básicos até detalhes de contato, endereços e informações de pagamento.
 
 ---
 
@@ -32,7 +32,7 @@ Nesta seção, você poderá registrar os contatos do técnico. É possível cad
 
 ![Seção contatos](/images/tecnicos/novo-tecnico/03.webp)
 
-- **Senha de Acesso**: É a senha..
+- **Senha de Acesso**: É a senha que o técnico utilizará para autenticar-se na plataforma **Técnico Boltech**.
 
 ---
 

@@ -12,7 +12,6 @@ interface SummaryMenuProps {
 }
 
 export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
-
   return (
     <div className="col-span-1 ml-6 h-fit border-l border-neutral-200 pl-4 text-neutral-200 max-[1255px]:hidden">
       <h3 className="mb-4 text-sm font-bold text-neutral-500">NESTA PÁGINA</h3>
@@ -28,7 +27,13 @@ export const SummaryMenu = ({ summary }: SummaryMenuProps) => {
 
               {item.subLinks?.map((subLink) => {
                 return (
-                  <a key={subLink.url} href={subLink.url} className="pl-4 text-neutral-400 hover:text-green-500">{subLink.title}</a>
+                  <a
+                    key={subLink.url}
+                    href={subLink.url}
+                    className="pl-4 text-neutral-400 hover:text-green-500"
+                  >
+                    {subLink.title}
+                  </a>
                 )
               })}
             </li>

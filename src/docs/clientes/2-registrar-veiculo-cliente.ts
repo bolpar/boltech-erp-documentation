@@ -7,7 +7,7 @@ A página **veículo** é essencial para visualizar e gerenciar as informações
 
 ## Veículos do Cliente
 
-A tabela com todos os veículos vinculados ao cliente, apresenta informações essenciais como *placa*, *BT*, *data de instalação*, *bloqueio* e *observações*. Para visualizar um veículo no mapa, clique no **ícone de mapa de localização** na linha correspondente, permitindo acessar detalhes do veículo e sua posição na seção abaixo. Para visualizar todos os veículos simultaneamente no mapa, clique no botão "**Mostrar todos no mapa**".
+A tabela com todos os veículos vinculados ao cliente, apresenta informações essenciais como *placa*, *BT*, *data de instalação*, *bloqueio* e *observações*. Para visualizar um veículo no mapa, clique em <img src="/images/map-pin.png" alt="ícone de buscar veículo" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> na linha correspondente, permitindo acessar detalhes do veículo e sua posição na seção abaixo. Para visualizar todos os veículos simultaneamente no mapa, clique em <img src="/images/map-pinned.png" alt="ícone de conferir todos os veículos" style="width: 36px; display: inline; margin: 0; vertical-align: middle;">.
 
 ![Tabela de veículos do cliente](/images/clientes/registrar-veiculo-cliente/01.webp)
 

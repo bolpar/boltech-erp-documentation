@@ -41,7 +41,7 @@ A tabela de equipamentos prontos exibe uma tabela com todos os aparelhos selecio
 
 ### Edição de Equipamentos
 
-Após a seleção e finalização dos equipamentos, é possível editar os detalhes de qualquer aparelho clicando no **ícone de lápis** diretamente na tabela de equipamentos prontos, garantindo que as informações estejam sempre corretas e atualizadas.
+Após a seleção e finalização dos equipamentos, é possível editar os detalhes de qualquer aparelho clicando em <img src="/images/pencil-line.png" alt="ícone de lápis" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> diretamente na tabela de equipamentos prontos, garantindo que as informações estejam sempre corretas e atualizadas.
 `
 
 export const INICIAR_SEPARACAO_SUMMARY = [
