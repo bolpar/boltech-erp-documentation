@@ -37,9 +37,23 @@ Com essas funcionalidades, a página de consulta de veículos assegura uma gest�
 
 export const CONSULTAR_VEICULOS_SUMMARY = [
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Tabela de veículos",
+    url: "#tabela-de-veículos"
   },
+  {
+    title: "Ações disponíveis",
+    url: "#ações-disponíveis",
+    subLinks: [
+      {
+        title: "Visualização do veículo",
+        url: "#visualização-do-veículo"
+      },
+      {
+        title: "Edição do veículo",
+        url: "#edição-do-veículo"
+      }
+    ]
+  }
 ]
 
 export const CONSULTAR_VEICULOS_ACTIONS = {

@@ -7,7 +7,9 @@ import {
   HeadsetIcon,
   MessagesSquareIcon,
   PackageIcon,
+  PercentIcon,
   PieChartIcon,
+  ReceiptIcon,
   SettingsIcon,
   ShoppingBasketIcon,
   UserCog,
@@ -199,6 +201,7 @@ export const NAV_ITEMS = [
     icon: BoxesIcon,
     subLinks: [
       {
+
         title: 'Equipamentos',
         path: '/equipamento',
       },
@@ -213,8 +216,35 @@ export const NAV_ITEMS = [
     ],
   },
   {
+    title: 'Financeiro',
+    path: '/financeiro',
+    icon: HandCoinsIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo do financeiro',
+        path: '/financeiro/introducao',
+      },
+      {
+        title: 'Registrar lançamento (Contas a pagar)',
+        path: '/financeiro/contas-a-pagar/registrar-lancamento',
+      },
+      {
+        title: 'Consultar contas a pagar',
+        path: '/financeiro/contas-a-pagar/consultar',
+      },
+      {
+        title: 'Efetuar cobrança (Contas a receber)',
+        path: '/financeiro/contas-a-receber/registrar-cobranca',
+      },
+      {
+        title: 'Consultar contas a receber',
+        path: '/financeiro/contas-a-receber/consultar',
+      },
+    ],
+  },
+  {
     title: 'Ordem de Serviço',
-    path: '/comissao',
+    path: '/ordem-de-servico',
     icon: FileBoxIcon,
     subLinks: [
       {
@@ -228,17 +258,59 @@ export const NAV_ITEMS = [
     ],
   },
   {
+    title: 'Comissão',
+    path: '/comissao',
+    icon: PercentIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de comissões',
+        path: '/comissao/introducao',
+      },
+      {
+        title: 'Registrar uma nova comissão',
+        path: '/comissao/nova-comissao',
+      },
+      {
+        title: 'Consultar comissões',
+        path: '/comissao/consultar',
+      },
+    ],
+  },
+  {
+    title: 'Nota Fiscal',
+    path: '/nota-fiscal',
+    icon: ReceiptIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de nota fiscal',
+        path: '/nota-fiscal/introducao',
+      },
+      {
+        title: 'Registrar nota fiscal',
+        path: '/nota-fiscal/nova-nota-fiscal',
+      },
+      {
+        title: 'Consultar notas fiscais',
+        path: '/nota-fiscal/consultar',
+      },
+    ],
+  },
+  {
     title: 'Suporte',
     path: '/suporte',
     icon: HeadsetIcon,
     subLinks: [
       {
-        title: 'Novo atendimento',
-        path: '/suporte',
+        title: 'Introdução ao fluxo de suporte',
+        path: '/suporte/introducao',
       },
       {
-        title: 'Pendências',
-        path: '/suporte/pendencias'
+        title: 'Registrar novo atendimento',
+        path: '/suporte/novo-atendimento'
+      },
+      {
+        title: 'Consultar atendimentos',
+        path: '/suporte/consultar'
       }
     ],
   },

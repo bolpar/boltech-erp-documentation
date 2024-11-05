@@ -30,7 +30,6 @@ Além disso, é disponível várias opções para gerenciar o veículo:
 - **Comandos**: Acesso a uma lista de comandos específicos para comunicação com o veículo.
 - **Histórico**: Abre uma nova página com o histórico, contendo todos os pontos registrados pelo rastreador em relação ao veículo.
 
-
 ### Histórico do veículo
 Ao clicar no "**botão histórico**" na tela de detalhes do mapa, você será direcionado para uma nova página que apresenta uma tabela detalhada com o histórico do veículo selecionado. Esta tabela inclui informações relevantes, como o *status da ligação*, o *status das coordenadas no GPS*, a *velocidade do veículo em km/h*, além das *datas* e *horas da conexão* e do *GPS*.
 
