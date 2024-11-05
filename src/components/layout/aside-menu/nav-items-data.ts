@@ -1,4 +1,6 @@
 import {
+  AwardIcon,
+  BoltIcon,
   BoxesIcon,
   CarIcon,
   ClipboardListIcon,
@@ -175,6 +177,44 @@ export const NAV_ITEMS = [
         path: '/tecnicos/consultar-tecnicos',
       },
     ],
+  },
+  {
+    title: 'Planos',
+    path: '/planos',
+    icon: AwardIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de planos',
+        path: '/planos/introducao',
+      },
+      {
+        title: 'Registrar um plano',
+        path: '/planos/novo-plano',
+      },
+      {
+        title: 'Consultar planos',
+        path: '/planos/consultar',
+      },
+    ],
+  },
+  {
+    title: 'Equipamento',
+    path: '/equipamento',
+    icon: BoltIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de equipamento',
+        path: '/equipamento/introducao'
+      },
+      {
+        title: 'Registrar equipamento',
+        path: '/equipamento/novo-equipamento'
+      },
+      {
+        title: 'Consultar equipamentos',
+        path: '/equipamento/consultar'
+      },
+    ]
   },
   {
     title: 'Veículos',
