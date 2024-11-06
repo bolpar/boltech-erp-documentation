@@ -17,11 +17,6 @@ export const MarkdownContent = ({ markdown, className }: MarkdownContentProps) =
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [modalImageSrc, setModalImageSrc] = useState("")
 
-  const openModal = (src: string) => {
-    setModalImageSrc(src)
-    setIsModalOpen(true)
-  }
-
   // Função para fechar o modal
   const closeModal = () => {
     setIsModalOpen(false)
