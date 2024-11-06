@@ -33,7 +33,7 @@ export const MainContent = ({ breadCrumb, markdown, summary, pagination }: MainC
         <FooterPagination pagination={pagination} />
       </div>
 
-      <SummaryMenu summary={summary} />
+      <SummaryMenu summary={summary} pdfContent={markdown} />
     </div>
   )
 }

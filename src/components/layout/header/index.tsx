@@ -4,7 +4,7 @@ import { MobileMenu } from "../menu/mobile-menu"
 
 export const Header = () => {
   return (
-    <header className="fixed left-0 right-0 top-0 flex h-20 w-screen items-center justify-between border-b border-neutral-200/80 bg-white px-[4%]">
+    <header className="mb-8 flex h-16 w-full items-center justify-between border-b border-neutral-200/80 bg-white px-[4%]">
       <div className="flex items-center gap-2">
         <Image
           src="/boltech-logo.png"
@@ -15,8 +15,8 @@ export const Header = () => {
         <span className="rounded-full bg-neutral-200 px-2 py-1 text-xs text-neutral-700">v0.1.1</span>
       </div>
 
-
       <MobileMenu />
+
       <div className="relative w-full max-w-72 max-[710px]:hidden">
         <input
           placeholder="Consultar na documentação..."

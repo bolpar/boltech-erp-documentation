@@ -26,7 +26,7 @@ export default function RootLayout({
       >
         <Header />
 
-        <main className="mt-28 grid grid-cols-5 max-[1180px]:grid-cols-4 max-[940px]:grid-cols-3 max-[710px]:grid-cols-1">
+        <main className="grid grid-cols-5 max-[1180px]:grid-cols-4 max-[940px]:grid-cols-3 max-[710px]:grid-cols-1">
           <AsideMenu />
           <div className="col-span-4 max-[1180px]:col-span-3 max-[940px]:col-span-2 max-[710px]:col-span-full">{children}</div>
         </main>

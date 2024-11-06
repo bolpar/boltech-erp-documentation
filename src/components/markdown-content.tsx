@@ -1,12 +1,17 @@
 'use client'
 
-import { useEffect, useRef } from 'react';
+import { ComponentProps, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
 import rehypeSlug from 'rehype-slug';
+import { twMerge } from 'tailwind-merge';
 
-export const MarkdownContent = ({ markdown }: { markdown: string }) => {
+interface MarkdownContentProps extends ComponentProps<"div"> {
+  markdown: string
+}
+
+export const MarkdownContent = ({ markdown, className }: MarkdownContentProps) => {
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
@@ -69,7 +74,7 @@ export const MarkdownContent = ({ markdown }: { markdown: string }) => {
         ),
         img: ({ ...props }) => (<img className='rounded-lg border-2 border-neutral-300 p-1' {...props} />)
       }}
-      className="whitespace-pre-wrap"
+      className={twMerge("whitespace-pre-wrap", className)}
     >
       {markdown}
     </ReactMarkdown >

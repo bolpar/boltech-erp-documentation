@@ -1,40 +1,35 @@
 import {
   AwardIcon,
   BoltIcon,
-  BoxesIcon,
   CarIcon,
-  ClipboardListIcon,
-  FileBoxIcon,
+  CpuIcon,
   HandCoinsIcon,
   HeadsetIcon,
-  MessagesSquareIcon,
   PackageIcon,
   PercentIcon,
-  PieChartIcon,
   ReceiptIcon,
   SettingsIcon,
   ShoppingBasketIcon,
-  UserCog,
   UsersIcon,
   WrenchIcon
 } from 'lucide-react'
 
 export const NAV_ITEMS = [
-  {
-    title: 'Pendências',
-    path: '/pendencias',
-    icon: ClipboardListIcon,
-    subLinks: [
-      {
-        title: 'Sub-título de Pendências 1',
-        path: '/',
-      },
-      {
-        title: 'Sub-título de Pendências 2',
-        path: '/',
-      },
-    ],
-  },
+  // {
+  //   title: 'Pendências',
+  //   path: '/pendencias',
+  //   icon: ClipboardListIcon,
+  //   subLinks: [
+  //     {
+  //       title: 'Sub-título de Pendências 1',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Sub-título de Pendências 2',
+  //       path: '/',
+  //     },
+  //   ],
+  // },
   {
     title: 'Vendas',
     path: '/vendas',
@@ -74,33 +69,33 @@ export const NAV_ITEMS = [
       },
     ],
   },
-  {
-    title: 'CRM',
-    path: '/crm',
-    icon: MessagesSquareIcon,
-    subLinks: [
-      {
-        title: 'Agenda',
-        path: '/',
-      },
-      {
-        title: 'Etapas',
-        path: '/',
-      },
-      {
-        title: 'Funil',
-        path: '/',
-      },
-      {
-        title: 'Origem',
-        path: '/',
-      },
-      {
-        title: 'Leads',
-        path: '/',
-      },
-    ],
-  },
+  // {
+  //   title: 'CRM',
+  //   path: '/crm',
+  //   icon: MessagesSquareIcon,
+  //   subLinks: [
+  //     {
+  //       title: 'Agenda',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Etapas',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Funil',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Origem',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Leads',
+  //       path: '/',
+  //     },
+  //   ],
+  // },
   {
     title: 'Clientes',
     path: '/clientes/',
@@ -211,6 +206,29 @@ export const NAV_ITEMS = [
         path: '/equipamento/novo-equipamento'
       },
       {
+        title: 'Registrar equipamentos em massa',
+        path: '/equipamento/novo-equipamento-multiplos'
+      },
+      {
+        title: 'Consultar equipamentos',
+        path: '/equipamento/consultar'
+      },
+    ]
+  },
+  {
+    title: 'Chip',
+    path: '/chip',
+    icon: CpuIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de equipamento',
+        path: '/equipamento/introducao'
+      },
+      {
+        title: 'Registrar equipamento',
+        path: '/equipamento/novo-equipamento'
+      },
+      {
         title: 'Consultar equipamentos',
         path: '/equipamento/consultar'
       },
@@ -232,26 +250,6 @@ export const NAV_ITEMS = [
       {
         title: 'Consultar veículos',
         path: '/veiculos/consultar-veiculos',
-      },
-    ],
-  },
-  {
-    title: 'Estoque',
-    path: '/estoque',
-    icon: BoxesIcon,
-    subLinks: [
-      {
-
-        title: 'Equipamentos',
-        path: '/equipamento',
-      },
-      {
-        title: 'Chips',
-        path: '/chip',
-      },
-      {
-        title: 'Acessórios',
-        path: '/',
       },
     ],
   },
@@ -279,21 +277,6 @@ export const NAV_ITEMS = [
       {
         title: 'Consultar contas a receber',
         path: '/financeiro/contas-a-receber/consultar',
-      },
-    ],
-  },
-  {
-    title: 'Ordem de Serviço',
-    path: '/ordem-de-servico',
-    icon: FileBoxIcon,
-    subLinks: [
-      {
-        title: 'Lista de O.S',
-        path: '/',
-      },
-      {
-        title: 'Comissões',
-        path: '/comissao',
       },
     ],
   },
@@ -354,75 +337,44 @@ export const NAV_ITEMS = [
       }
     ],
   },
-  {
-    title: 'Bi',
-    path: '/bi',
-    icon: PieChartIcon,
-    subLinks: [
-      {
-        title: 'Dashboard',
-        path: '/',
-      },
-      {
-        title: 'Configurar',
-        path: '/',
-      },
-      {
-        title: 'Financeiro',
-        path: '/financeiro',
-        icon: HandCoinsIcon,
-        subLinks: [
-          {
-            title: 'A receber',
-            path: '/financeiro/contas-a-receber',
-          },
-          {
-            title: 'A pagar',
-            path: '/financeiro/contas-a-pagar',
-          },
-          {
-            title: 'Recebimento',
-            path: '/financeiro/recebimento',
-          },
-          {
-            title: 'Cobrança',
-            path: '/',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Administrativo',
-    path: '/administrativo',
-    icon: UserCog,
-    subLinks: [
-      {
-        title: 'Comissões',
-        path: '/',
-      },
-      {
-        title: 'Contratos',
-        path: '/',
-      },
-      {
-        title: 'Planos',
-        path: '/',
-      },
-      {
-        title: 'Serviços',
-        path: '/',
-      },
-      {
-        title: 'Usuários',
-        path: '/',
-      },
-      {
-        title: 'Vendedores',
-        path: '/',
-      },
-    ],
-  },
+  // {
+  //   title: 'Bi',
+  //   path: '/bi',
+  //   icon: PieChartIcon,
+  //   subLinks: [
+  //     {
+  //       title: 'Dashboard',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Configurar',
+  //       path: '/',
+  //     },
+  //     {
+  //       title: 'Financeiro',
+  //       path: '/financeiro',
+  //       icon: HandCoinsIcon,
+  //       subLinks: [
+  //         {
+  //           title: 'A receber',
+  //           path: '/financeiro/contas-a-receber',
+  //         },
+  //         {
+  //           title: 'A pagar',
+  //           path: '/financeiro/contas-a-pagar',
+  //         },
+  //         {
+  //           title: 'Recebimento',
+  //           path: '/financeiro/recebimento',
+  //         },
+  //         {
+  //           title: 'Cobrança',
+  //           path: '/',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     title: 'Configurações',
     path: '/configuracoes',

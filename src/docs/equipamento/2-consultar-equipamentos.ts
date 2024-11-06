@@ -1,28 +1,57 @@
 export const CONSULTAR_EQUIPAMENTO_MARKDOWN = `
-# Introdução ao Fluxo de Comissões
+# Consulta de Equipamentos
 
-O **Fluxo de Comissões** no Boltech ERP abrange todas as etapas necessárias para gerenciar as comissões de forma eficiente. Desde a visualização das comissões registradas até o registro de novas, este fluxo permite uma gestão clara e organizada, essencial para a análise financeira.
+A página de **consulta de equipamentos** é essencial para gerenciar e acompanhar todos os dispositivos registrados no sistema. Com uma interface simples e intuitiva, ela permite buscar rapidamente um equipamento, visualizar detalhes e realizar edições de maneira eficiente.
 
 ---
 
-## O que você irá aprender
+## Tabela de Equipamentos
 
-Ao final desta seção, você estará apto a gerenciar comissões com eficiência, seguindo as etapas abaixo:
+Nesta seção você encontrará a tabela com todos os equipamentos cadastrados no sistema. Nessa seção, você pode realizar buscas rápidas utilizando o IMEI do equipamento e aplicar filtros para refinar a pesquisa. A tabela exibe as informações essenciais de cada equipamento, facilitando a localização e consulta dos dados.
 
-- **Comissões**: Nesta aba, você encontrará uma tabela com todas as comissões registradas no sistema.
-- **Dados**: Esta aba é destinada ao registro de novas comissões. Você pode inserir todas as informações necessárias, como valores e datas, garantindo que as comissões sejam documentadas de maneira completa.
+![Tabela de equipamentos](/images/equipamento/consultar/01.webp)
 
->**Importante**: A compreensão e a utilização correta dessas etapas são essenciais para assegurar uma gestão de comissões eficaz, garantindo que todas as informações sejam registradas e facilmente acessíveis dentro do Boltech ERP.
+Além disso, você tem as opções de:
+
+- **Exportar Relatório**: Gera um relatório completo com todos os dados dos equipamentos cadastrados, útil para análise externa ou para manter um registro físico.
+- **Registrar Novo Equipamento**: Inicia o processo de cadastro de um novo equipamento diretamente nesta página, permitindo adicionar rapidamente um novo dispositivo ao sistema.
+
+---
+
+## Ações Disponíveis
+
+Dentro da tabela de equipamentos, você pode realizar ações específicas para cada equipamento listado:
+
+
+### Visualização do Equipamento
+
+Ao clicar em <img src="/images/eye.png" alt="ícone de lápis" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> na linha do equipamento correspondente, um painel lateral é aberto com todos os detalhes do equipamento selecionado.
+
+![Gif de painel lateral](/images/equipamento/consultar/02.gif)
+
+### Edição do Equipamento
+
+Se for necessário editar as informações do equipamento, basta clicar em <img src="/images/pencil-line.png" alt="ícone de lápis" style="width: 36px; display: inline; margin: 0; vertical-align: middle;"> ao lado da linha correspondente. Isso redireciona você para a página de edição, com os dados do equipamento já carregados, permitindo realizar ajustes rápidos e eficientes nas informações registradas.
 `
 
 export const CONSULTAR_EQUIPAMENTO_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Tabela de equipamentos",
+    url: "#tabela-de-equipamentos"
   },
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Ações disponíveis",
+    url: "#ações-disponíveis",
+    subLinks: [
+      {
+        title: 'Visualização do equipamento',
+        url: "#visualização-do-equipamento"
+      },
+      {
+        title: 'Edição do equipamento',
+        url: "#edição-do-equipamento"
+      },
+    ]
   },
 ]
 
