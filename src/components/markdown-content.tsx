@@ -1,6 +1,6 @@
 'use client'
 
-import { ComponentProps, useEffect, useRef } from 'react';
+import { ComponentProps, useEffect, useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
@@ -13,6 +13,20 @@ interface MarkdownContentProps extends ComponentProps<"div"> {
 
 export const MarkdownContent = ({ markdown, className }: MarkdownContentProps) => {
   const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [modalImageSrc, setModalImageSrc] = useState("")
+
+  const openModal = (src: string) => {
+    setModalImageSrc(src)
+    setIsModalOpen(true)
+  }
+
+  // Função para fechar o modal
+  const closeModal = () => {
+    setIsModalOpen(false)
+    setModalImageSrc("")
+  }
 
   useEffect(() => {
     // Função callback que será chamada quando uma seção entrar ou sair da viewport
@@ -45,38 +59,56 @@ export const MarkdownContent = ({ markdown, className }: MarkdownContentProps) =
   }, [markdown]); // Atualiza sempre que o markdown mudar
 
   return (
-    <ReactMarkdown
-      rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
-      components={{
-        h1: ({ ...props }) => (
-          <h1 className="border-b pb-2 text-3xl font-bold text-neutral-800" {...props} />
-        ),
-        h2: ({ ...props }) => (
-          <h2 className="text-2xl font-semibold text-neutral-700" {...props} />
-        ),
-        h3: ({ ...props }) => (
-          <h3 className="text-lg font-semibold text-neutral-700" {...props} />
-        ),
-        p: ({ ...props }) => (
-          <p className="text-base leading-relaxed text-neutral-600" {...props} />
-        ),
-        a: ({ ...props }) => (
-          <a className="text-base leading-relaxed text-green-600 underline" {...props} />
-        ),
-        ul: ({ ...props }) => (
-          <ul className="mb-0 mt-0 list-inside list-[square] text-neutral-600" {...props} />
-        ),
-        ol: ({ ...props }) => (
-          <ol className="mb-0 mt-0 list-inside list-decimal text-neutral-600" {...props} />
-        ),
-        blockquote: ({ ...props }) => (
-          <blockquote className="border-l-4 border-blue-500 bg-neutral-100 px-4 text-neutral-700" {...props} />
-        ),
-        img: ({ ...props }) => (<img className='rounded-lg border-2 border-neutral-300 p-1' {...props} />)
-      }}
-      className={twMerge("whitespace-pre-wrap", className)}
-    >
-      {markdown}
-    </ReactMarkdown >
+    <>
+      <ReactMarkdown
+        rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
+        components={{
+          h1: ({ ...props }) => (
+            <h1 className="border-b pb-2 text-3xl font-bold text-neutral-800" {...props} />
+          ),
+          h2: ({ ...props }) => (
+            <h2 className="text-2xl font-semibold text-neutral-700" {...props} />
+          ),
+          h3: ({ ...props }) => (
+            <h3 className="text-lg font-semibold text-neutral-700" {...props} />
+          ),
+          p: ({ ...props }) => (
+            <p className="text-base leading-relaxed text-neutral-600" {...props} />
+          ),
+          a: ({ ...props }) => (
+            <a className="text-base leading-relaxed text-green-600 underline" {...props} />
+          ),
+          ul: ({ ...props }) => (
+            <ul className="mb-0 mt-0 list-inside list-[square] text-neutral-600" {...props} />
+          ),
+          ol: ({ ...props }) => (
+            <ol className="mb-0 mt-0 list-inside list-decimal text-neutral-600" {...props} />
+          ),
+          blockquote: ({ ...props }) => (
+            <blockquote className="border-l-4 border-blue-500 bg-neutral-100 px-4 text-neutral-700" {...props} />
+          ),
+          img: ({ ...props }) => (<img onClick={() => {
+            setIsModalOpen(true)
+            setModalImageSrc(String(props.src))
+          }} className='cursor-pointer rounded-lg border-2 border-neutral-300 p-1' {...props} />)
+        }}
+        className={twMerge("whitespace-pre-wrap", className)}
+      >
+        {markdown}
+      </ReactMarkdown >
+
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
+          onClick={closeModal} // Fecha o modal ao clicar fora da imagem
+        >
+          <img
+            src={modalImageSrc}
+            alt="Imagem ampliada"
+            className="max-h-full max-w-full rounded-lg border-2 border-neutral-900 shadow-lg"
+          />
+        </div>
+      )}
+    </>
   )
 }
