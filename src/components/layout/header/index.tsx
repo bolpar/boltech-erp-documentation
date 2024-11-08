@@ -1,5 +1,6 @@
-import { SearchIcon } from "lucide-react"
+import { SquareArrowOutUpRightIcon } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { MobileMenu } from "../menu/mobile-menu"
 
 export const Header = () => {
@@ -17,13 +18,11 @@ export const Header = () => {
 
       <MobileMenu />
 
-      <div className="relative w-full max-w-72 max-[710px]:hidden">
-        <input
-          placeholder="Consultar na documentação..."
-          className="w-full rounded-full border border-neutral-300 bg-neutral-100 py-2 pl-8 text-[0.8rem] placeholder:text-neutral-400/80"
-        />
-        <SearchIcon className="absolute left-2 top-2 h-5 w-5 text-neutral-300" />
-      </div>
+      <Link href="https://boltech-erp.vercel.app/vendas">
+        <button className="flex items-center gap-2 rounded-md bg-green-300 p-2 text-sm text-neutral-600 hover:bg-green-400 hover:text-neutral-800">
+          <SquareArrowOutUpRightIcon className="h-4 w-4" /> Boltech ERP
+        </button>
+      </Link>
     </header>
   )
 }
