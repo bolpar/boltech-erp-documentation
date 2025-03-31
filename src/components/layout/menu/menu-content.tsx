@@ -20,6 +20,8 @@ export const MenuContent = () => {
       <MenuLink title='Benefícios e Objetivos' href='/beneficios-objetivos' />
       <MenuLink title='Iniciando no ERP' href='/iniciando-erp' />
       <MenuLink title='Sobre a Boltech' href='/sobre-boltech' />
+      <MenuLink title='Plataforma Técnico' href='/plataforma-tecnico' />
+      <MenuLink title='Plataforma Rastreamento' href='/plataforma-rastreamento' />
 
       <div className='my-4 h-px w-full bg-neutral-200' />
 
