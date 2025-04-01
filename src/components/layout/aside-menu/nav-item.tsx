@@ -87,7 +87,7 @@ export const NavItem = ({
         </button>
       </Accordion.Trigger>
 
-      <Accordion.Content className='data-[state=open]:animate-sidePanelShow'>
+      <Accordion.Content className='data-[state=open]:animate-sidePanelShow space-y-2'>
         <ul className="mb-2 ml-5 mt-1 border-l border-neutral-200">
           {subLinks?.map((link, index) => {
             const isActive = pathname === link.path

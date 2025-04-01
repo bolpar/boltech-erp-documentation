@@ -27,7 +27,7 @@ export const MenuContent = () => {
 
       {NAV_ITEMS.map((navItem, index) => {
         return (
-          <Accordion.Item key={index} value={`item-${index + 1}`}>
+          <Accordion.Item key={index} value={`item-${index + 1}`} className='space-y-2'>
             <NavItem {...navItem} closeItems={closeAllItems} />
           </Accordion.Item>
         )

@@ -221,16 +221,35 @@ export const NAV_ITEMS = [
     icon: CpuIcon,
     subLinks: [
       {
-        title: 'Introdução ao fluxo de equipamento',
-        path: '/equipamento/introducao'
+        title: 'Introdução ao fluxo de chips',
+        path: '/chip/introducao'
       },
       {
-        title: 'Registrar equipamento',
-        path: '/equipamento/novo-equipamento'
+        title: 'Registrar chip',
+        path: '/chip/novo-chip'
       },
       {
-        title: 'Consultar equipamentos',
-        path: '/equipamento/consultar'
+        title: 'Consultar chips',
+        path: '/chip/consultar'
+      },
+    ]
+  },
+  {
+    title: 'Produto',
+    path: '/produto',
+    icon: PackageIcon,
+    subLinks: [
+      {
+        title: 'Introdução ao fluxo de produto',
+        path: '/produto/introducao'
+      },
+      {
+        title: 'Registrar produto',
+        path: '/produto/novo-produto'
+      },
+      {
+        title: 'Consultar produto',
+        path: '/produto/consultar'
       },
     ]
   },

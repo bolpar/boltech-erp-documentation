@@ -5,27 +5,27 @@ O aplicativo técnico da Boltech foi criado para resolver problemas críticos na
 
 ---
 
-### **Gestão unificada de ordens de serviço**  
+## Gestão unificada de ordens de serviço  
 Os técnicos acessam todas as informações necessárias em um único lugar: dados do cliente, histórico de serviços, especificações do veículo (placa, BT, modelo) e status financeiro. Isso evita consultas demoradas a sistemas separados ou documentos físicos, garantindo que o trabalho comece com informações verificadas e atualizadas.  
 
 ---
 
-### **Checklist digital obrigatório**  
+## Checklist digital obrigatório  
 Durante a instalação, o técnico deve registrar fotos da placa do veículo, posicionamento do rastreador e componentes elétricos (fusíveis e relés). Essas evidências são vinculadas à ordem de serviço no ERP, permitindo auditoria remota e transparência para o cliente. A falta de qualquer item bloqueia a conclusão do serviço, assegurando padrões mínimos de qualidade.  
 
 ---
 
-### **Testes de comunicação integrados**  
+## Testes de comunicação integrados
 Antes de finalizar, o aplicativo testa automaticamente a conexão do rastreador com a rede Boltech. O técnico insere placa e código BT para verificar transmissão de dados, localização e integridade do sinal. Problemas são detectados no local, evitando revisitas e garantindo que o cliente receba um dispositivo funcional.  
 
 ---
 
-### **Acesso contextual a manuais técnicos**  
+## Acesso contextual a manuais técnicos  
 Ao cadastrar um modelo de rastreador (como GTOSS ou ET01/MT09), o aplicativo exibe automaticamente o manual correspondente. Técnicos não precisam buscar documentos em pastas físicas ou memorizar procedimentos, reduzindo erros em configurações complexas.  
 
 ---
 
-### **Sincronização automática com o ERP**  
+## Sincronização automática com o ERP  
 Toda conclusão de serviço atualiza o sistema central em tempo real:  
 - Fotos e observações são anexadas ao registro do cliente  
 - A equipe financeira recebe alertas para emissão de cobrança  

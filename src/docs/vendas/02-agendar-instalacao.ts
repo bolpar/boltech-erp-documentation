@@ -5,6 +5,12 @@ A aba **Instalação** é fundamental para gerenciar o processo de instalação 
 >**Importante**: Esse passo é opcional para casos em que o modelo do rastreador não requer instalação.
 ---
 
+## Cabeçalho de Equipamentos a serem agendados
+
+O cabeçalho registra as informações relevantes de **dados e plano**, a quais são necessárias para o usuário/vendedor saber exatamente a quantidade de equipamentos que precisam ser agendados.
+
+![Cabeçalho da venda](/images/agendar-instalacao/cabecalho.webp)
+
 ## Informando o Veículo
 
 Nesta seção, você deve fornecer as informações do veículo do cliente que receberá o rastreador. É importante preencher todos os campos solicitados com precisão, garantindo que os dados estejam corretos.
