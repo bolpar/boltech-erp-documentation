@@ -67,11 +67,11 @@ export const FORNECEDOR_FINANCEIRO_SUMMARY = [
 
 export const FORNECEDOR_FINANCEIRO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Fornecedor",
+    url: "/fornecedores/novo-fornecedor"
   },
   next: {
-    title: "Criar fornecedor",
-    url: "/fornecedors/novo-fornecedor"
+    title: "Consultar fornecedores",
+    url: "/fornecedores/consultar-fornecedores"
   }
 }

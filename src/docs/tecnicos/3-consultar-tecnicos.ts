@@ -20,7 +20,7 @@ Logo abaixo dos cards, está localizada a tabela de técnicos, onde é possível
 
 Dentro da tabela de clientes, é possível realizar ações específicas para cada cliente listado:
 
-### Visualização do Cliente
+### Visualização do Técnico
 
 Ao clicar no **ícone de olho** ao lado de um técnico, um painel detalhado se abrirá, exibindo todas as informações disponíveis sobre o técnico selecionado. Esse painel foi projetado para oferecer uma visão abrangente e estruturada, facilitando o acesso a todos os dados importantes.
 
@@ -41,19 +41,19 @@ export const CONSULTAR_TECNICOS_SUMMARY = [
     title: "Ações disponíveis",
     url: "#ações-disponíveis",
     subLinks: [{
-      title: "Visualização do cliente",
-      url: "#visualização-do-cliente"
+      title: "Visualização do técnico",
+      url: "#visualização-do-técnico"
     }]
   },
 ]
 
 export const CONSULTAR_TECNICOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Tipo de Serviço",
+    url: "/tecnicos/novo-tipo-servico"
   },
   next: {
-    title: "Criar cliente",
+    title: "Introdução á Planos",
     url: "/clientes/novo-cliente"
   }
 }

@@ -4,6 +4,7 @@ export const PLATAFORMA_TECNICO_MARKDOWN = `
 O aplicativo técnico da Boltech foi criado para resolver problemas críticos nas instalações de rastreadores, garantindo padronização, precisão e integração imediata com o sistema ERP. Ele elimina processos manuais, reduz erros e conecta o trabalho dos técnicos diretamente ao núcleo operacional da empresa.  
 
 ---
+![Tela 1 Entregador](/images/plataforma-tecnico/galeria.webp) 
 
 ## Gestão unificada de ordens de serviço  
 Os técnicos acessam todas as informações necessárias em um único lugar: dados do cliente, histórico de serviços, especificações do veículo (placa, BT, modelo) e status financeiro. Isso evita consultas demoradas a sistemas separados ou documentos físicos, garantindo que o trabalho comece com informações verificadas e atualizadas.  
@@ -24,6 +25,8 @@ Antes de finalizar, o aplicativo testa automaticamente a conexão do rastreador 
 Ao cadastrar um modelo de rastreador (como GTOSS ou ET01/MT09), o aplicativo exibe automaticamente o manual correspondente. Técnicos não precisam buscar documentos em pastas físicas ou memorizar procedimentos, reduzindo erros em configurações complexas.  
 
 ---
+
+![Tela 2 Entregador](/images/plataforma-tecnico/galeria-2.webp) 
 
 ## Sincronização automática com o ERP  
 Toda conclusão de serviço atualiza o sistema central em tempo real:  

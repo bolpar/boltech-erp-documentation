@@ -61,11 +61,11 @@ export const NOVO_FORNECEDOR_SUMMARY = [
 
 export const NOVO_FORNECEDOR_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução a Fornecedores",
+    url: "/fornecedores/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Financeiro do Fornecedor",
+    url: "/fornecedores/financeiro"
   }
 }

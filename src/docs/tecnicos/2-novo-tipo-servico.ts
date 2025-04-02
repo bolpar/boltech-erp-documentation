@@ -34,11 +34,11 @@ export const NOVO_TIPO_SERVICO_SUMMARY = [
 
 export const NOVO_TIPO_SERVICO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registro Técnico",
+    url: "/tecnicos/novo-tecnico"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Técnicos",
+    url: "/tecnicos/consultar-tecnicos"
   }
 }

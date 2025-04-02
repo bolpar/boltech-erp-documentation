@@ -1,18 +1,40 @@
 export const INTRODUCAO_CHIP_MARKDOWN = `
-# Introdução ao Fluxo de Produtos
+# Introdução ao Fluxo de Chips  
 
-O Fluxo de Produtos no Boltech ERP contempla todas as operações essenciais para registro e consulta de itens do inventário. Este módulo foi projetado para oferecer uma gestão simplificada e eficiente dos seus produtos, desde o cadastro inicial até a consulta diária.
+O Fluxo de Chips no Boltech ERP abrange todas as operações necessárias para o registro, rastreamento e consulta de chips vinculados a dispositivos ou serviços. Este módulo foi desenvolvido para simplificar a gestão de chips, garantindo controle preciso desde a ativação até a monitoração diária.  
 
 ---
 
-## O que você irá encontrar
+## O que você irá encontrar  
 
-Nesta seção, você terá acesso às seguintes funcionalidades principais:
+Nesta seção, você terá acesso às seguintes funcionalidades principais:  
 
-- **Listagem de Produtos**: Visualize todos os itens cadastrados em uma tabela organizada, com opções de filtro e busca para localização ágil de qualquer produto.
-- **Cadastro de Produto**: Registre novos itens no sistema com todas as informações necessárias, incluindo dados básicos, informações fiscais e valores comerciais.
+- **Listagem de Chips**: Visualize todos os chips cadastrados em uma tabela organizada, com filtros para buscar por operadora, status ou número de série.  
+- **Cadastro de Chip**: Registre novos chips no sistema, incluindo detalhes técnicos, vinculação a dispositivos e planos associados.  
 
->**Atenção**: Para garantir a integridade dos dados e o funcionamento correto do sistema, todos os campos marcados como obrigatórios devem ser preenchidos durante o cadastro. Mantenha as informações sempre atualizadas para evitar discrepâncias nos relatórios e documentos fiscais.
+>**Atenção**: Campos obrigatórios, como número de série e operadora, devem ser preenchidos para garantir a rastreabilidade e o funcionamento adequado das integrações. Atualize regularmente o status dos chips para evitar inconsistências em relatórios operacionais.  
 
-Para acessar estas funcionalidades, navegue até **Estoque > Produtos** no menu principal do sistema.
+Para acessar estas funcionalidades, navegue até **Cadastros > Chips** no menu principal do sistema.  
 `
+
+export const INTRODUCAO_CHIP_SUMMARY = [
+  {
+    title: "Introdução ao fluxo de chips",
+    url: "#introdução-ao-fluxo-de-chips"
+  },
+  {
+    title: "O que você irá aprender",
+    url: "#o-que-você-irá-aprender"
+  },
+]
+
+export const INTRODUCAO_CHIP_ACTIONS = {
+  previous: {
+    title: "Consultar Equipamentos",
+    url: "/equipamento/consultar"
+  },
+  next: {
+    title: "Registrar Chip",
+    url: "/chip/novo-chip"
+  }
+}

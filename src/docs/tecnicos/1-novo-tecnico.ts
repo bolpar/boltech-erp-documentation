@@ -56,11 +56,11 @@ export const NOVO_TECNICO_SUMMARY = [
 
 export const NOVO_TECNICO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Técnicos",
+    url: "/tecnicos/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Tipo de Serviço",
+    url: "/tecnicos/novo-tipo-servico"
   }
 }

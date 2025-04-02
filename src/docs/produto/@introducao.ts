@@ -16,3 +16,26 @@ Nesta seção, você terá acesso às seguintes funcionalidades principais:
 
 Para acessar estas funcionalidades, navegue até **Estoque > Produtos** no menu principal do sistema.
 `
+
+export const PRODUTO_INTRODUCAO_SUMMARY = [
+  {
+    title: "Introdução ao fluxo de produtos",
+    url: "#introdução-ao-fluxo-de-produtos"
+  },
+  {
+    title: "O que você irá encontrar",
+    url: "#o-que-você-irá-encontrar"
+  },
+]
+
+export const PRODUTO_INTRODUCAO_ACTIONS = {
+  previous: {
+    title: "Consultar Chip",
+    url: "/chip/consultar",
+
+  },
+  next: {
+    title: "Registrar Produto",
+    url: "/produto/novo-produto"
+  }
+}

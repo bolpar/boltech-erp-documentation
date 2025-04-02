@@ -36,32 +36,26 @@ Se for necessário editar as informações do equipamento, basta clicar em <img 
 
 export const CONSULTAR_EQUIPAMENTO_SUMMARY = [
   {
-    title: "Tabela de equipamentos",
-    url: "#tabela-de-equipamentos"
+    title: "Identificação do Chip",
+    url: "#identificação-do-chip"
   },
   {
-    title: "Ações disponíveis",
-    url: "#ações-disponíveis",
-    subLinks: [
-      {
-        title: 'Visualização do equipamento',
-        url: "#visualização-do-equipamento"
-      },
-      {
-        title: 'Edição do equipamento',
-        url: "#edição-do-equipamento"
-      },
-    ]
+    title: "Custos e Datas",
+    url: "#custos-e-datas"
+  },
+  {
+    title: "Associação ao Equipamento",
+    url: "#associação-ao-equipamento"
   },
 ]
 
 export const CONSULTAR_EQUIPAMENTO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Chips",
+    url: "/chip/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Chips",
+    url: "/chip/consultar"
   }
 }

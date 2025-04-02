@@ -28,3 +28,25 @@ Para ajustes, utilize o ícone de edição (<img src="/images/pencil-line.png" a
 > **Observação:** Chips marcados como "Inativos" permanecem no histórico do sistema, mas não podem ser vinculados a novos equipamentos. Utilize o filtro de status para gerenciar dispositivos não operacionais.
 
 Para acessar esta funcionalidade, navegue até **Cadastro > Chips** no menu principal.`
+
+export const CONSULTAR_CHIPS_SUMMARY = [
+  {
+    title: "Tabela de Chips",
+    url: "#tabela-de-chips"
+  },
+  {
+    title: "Detalhamento e Atualizações",
+    url: "#detalhamento-e-atualizações"
+  },
+]
+
+export const CONSULTAR_CHIPS_ACTIONS = {
+  previous: {
+    title: "Registrar Chip",
+    url: "/chip/novo-chip"
+  },
+  next: {
+    title: "Introdução á produtos",
+    url: "/produto/introducao"
+  }
+}

@@ -42,33 +42,30 @@ Com essas funcionalidades, a página de consulta de clientes garante uma gestão
 
 export const CONSULTAR_CLIENTES_SUMMARY = [
   {
-    title: "Resumo financeiro do cliente",
-    url: "#resumo-financeiro-do-cliente"
+    title: "Resumo geral dos clientes",
+    url: "#resumo-geral-dos-clientes"
   },
   {
-    title: "Tabela de faturas",
-    url: "#tabela-de-faturas"
+    title: "Tabela de clientes",
+    url: "#tabela-de-clientes"
   },
   {
     title: "Ações disponíveis",
     url: "#ações-disponíveis",
     subLinks: [{
-      title: "Detalhes da fatura",
-      url: "#detalhes-da-fatura"
-    }, {
-      title: "Pagar fatura",
-      url: "#pagar-fatura"
+      title: "Visualização do cliente",
+      url: "#visualização-do-cliente"
     }]
   },
 ]
 
 export const CONSULTAR_CLIENTES_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar os serviços com o cliente",
+    url: "/clientes/consultar-servicos-cliente"
   },
   next: {
-    title: "Criar orçamento de pedido",
-    url: "/vendas/novo-orcamento"
+    title: "Introdução ao fluxo de fornecedores",
+    url: "/fornecedores/introducao"
   }
 }

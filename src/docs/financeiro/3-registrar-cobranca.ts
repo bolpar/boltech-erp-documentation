@@ -1,33 +1,43 @@
-export const INTRODUCAO_CLIENTE_MARKDOWN = `
-# Introdução ao Fluxo de Clientes
+export const REGISTRAR_COBRANCA_MARKDOWN = `
+# Registrar um Lançamento em Contas a Receber
 
-O **Fluxo de Clientes** no Boltech ERP envolve as etapas de gerenciamento relacionados ao cliente, desde o cadastro até o acompanhamento contínuo de suas necessidades e histórico dentro do sistema. Ao final, você terá um entendimento completo sobre como gerenciar as informações dos seus clientes de maneira eficaz.
-
----
-
-## O que você irá aprender
-
-Ao final da leitura da seção **Clientes**, você estará preparado para gerenciar o cadastro de clientes e todas as informações associadas, com total confiança em cada passo. Confira abaixo todas as etapas que você irá compreender nesta seção:
-
-- **Clientes**: Nesta aba, você terá acesso a todos os clientes cadastrados no sistema, junto com um painel de BI (Business Intelligence) que fornece uma visão geral dos clientes e seus dados de maneira consolidada.
-- **Dados**: Esta aba é dedicada ao cadastro de novos clientes e à visualização detalhada das informações de cada cliente, incluindo *contatos*, *endereços* e *valores de comissão*.
-- **Veículo**: Aqui, você pode cadastrar e visualizar todos os veículos associados ao cliente, além de acessar informações detalhadas sobre cada veículo. Esta aba também permite verificar o histórico de ações e realizar o bloqueio ou desbloqueio do veículo quando necessário.
-- **Financeiro**: Nesta seção, você encontra todo o histórico financeiro do cliente relacionado aos rastreadores. É possível monitorar pagamentos, pendências e outros detalhes financeiros diretamente vinculados ao contrato do cliente.
-
-> **Importante:** Cada uma dessas etapas é essencial para garantir que todos os detalhes do cliente sejam registrados e geridos de forma organizada, permitindo um atendimento eficaz e um controle preciso de informações.
+A página de **Lançamento Manual** no Boltech ERP centraliza a criação de cobranças a receber, garantindo precisão nas informações financeiras e flexibilidade para adaptar-se a diferentes cenários comerciais. A estrutura divide-se em três seções estratégicas:
 
 ---
 
-Esse fluxo bem-estruturado assegura que todas as informações do cliente sejam documentadas de maneira clara e precisa, beneficiando tanto o acompanhamento dos processos internos quanto a relação com o cliente.
+## Identificação do Lançamento  
+Esta seção captura os dados fundamentais para vincular a cobrança ao contexto correto. Aqui, você associa o lançamento ao cliente responsável pelo pagamento, podendo opcionalmente relacionar produtos/serviços específicos ou adicionar observações relevantes para auditoria futura. O sistema sincroniza automaticamente dados cadastrais do cliente selecionado, agilizando o preenchimento e reduzindo erros manuais.  
 
-Cada aba desta documentação se aprofunda em uma dessas etapas, oferecendo instruções detalhadas e orientações práticas para que você possa executar cada passo com precisão e eficiência.
+![Campo identificação do lançamento](/images/financeiro/contas-a-receber/01.webp)  
 
+> **Importante**: A vinculação correta do cliente é essencial para integrações com módulos de faturamento e relatórios contábeis.
+
+---
+
+## Valores Financeiros  
+Define a estrutura monetária da cobrança, incluindo valores base, ajustes financeiros (como descontos ou multas) e o status inicial da transação. Esta seção permite configurar condições flexíveis, adaptando-se a políticas comerciais como incentivos para pagamento antecipado ou penalidades por atrasos, sempre respeitando a legislação vigente.  
+
+![Campo valores financeiros](/images/financeiro/contas-a-receber/02.webp)  
+
+---
+
+## Prazos e Condições de Pagamento  
+Controla o calendário e as regras para quitação do débito. Aqui são estabelecidos prazos de vencimento, janelas para aproveitamento de descontos, opções de parcelamento e critérios de expiração da cobrança. A configuração nesta seção impacta diretamente o fluxo de caixa e a comunicação com o cliente (ex: datas em boletos).  
+
+![Campo prazos e condições](/images/financeiro/contas-a-receber/03.webp)  
+
+---
+
+## Tabela de Parcelas Geradas  
+Ao finalizar as configurações, o sistema sintetiza automaticamente as obrigações financeiras em uma tabela dinâmica. Esta visão unificada mostra o cronograma de recebimentos, valores individuais por parcela e status operacional, servindo como base para acompanhamento e ajustes pontuais.  
+
+![Tabela de parcelas](/images/financeiro/contas-a-receber/04.gif)  
 `
 
-export const INTRODUCAO_CLIENTE_SUMMARY = [
+export const REGISTRAR_COBRANCA_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Identificação do Lançamento",
+    url: "#identificação-do-lançamento"
   },
   {
     title: "O que você irá aprender",

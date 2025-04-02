@@ -67,11 +67,11 @@ export const CONSULTAR_FORNECEDORES_SUMMARY = [
 
 export const CONSULTAR_FORNECEDORES_ACTIONS = {
   previous: {
-    title: "Testar equipamento",
-    url: "/vendas/testar-equipamento"
+    title: "Financeiro do Fornecedor",
+    url: "/fornecedores/financeiro"
   },
   next: {
-    title: "Introdução ao CRM",
-    url: ""
+    title: "Introdução á Técnicos",
+    url: "/tecnicos/introducao"
   }
 }

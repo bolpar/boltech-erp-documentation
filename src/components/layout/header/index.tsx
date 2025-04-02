@@ -13,16 +13,16 @@ export const Header = () => {
             alt="Bolpar Logo"
             width={100}
             height={100}
-            className="hover:opacity-80"
+            className="mt-2 hover:opacity-80"
           />
         </Link>
-        <span className="rounded-full bg-neutral-200 px-2 py-1 text-xs text-neutral-700">v0.1.1</span>
+        <span className="rounded-full bg-neutral-200 px-2 py-1 text-xs text-neutral-700">v0.1</span>
       </div>
 
       <MobileMenu />
 
       <Link href="https://boltech-erp.vercel.app/vendas">
-        <button className="flex items-center gap-2 rounded-md bg-green-300 p-2 text-sm text-neutral-600 hover:bg-green-400 hover:text-neutral-800">
+        <button className="mt-2 flex items-center gap-2 rounded-md bg-green-300 p-2 text-sm text-neutral-600 hover:bg-green-400 hover:text-neutral-800">
           <SquareArrowOutUpRightIcon className="h-4 w-4" /> Boltech ERP
         </button>
       </Link>

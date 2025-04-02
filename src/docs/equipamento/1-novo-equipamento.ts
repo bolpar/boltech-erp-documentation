@@ -65,11 +65,11 @@ export const NOVO_EQUIPAMENTO_SUMMARY = [
 
 export const NOVO_EQUIPAMENTO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Equipamentos",
+    url: "/equipamento/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Cadastrar equipamentos em massa",
+    url: "/equipamento/novo-equipamento-multiplos"
   }
 }

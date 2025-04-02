@@ -70,11 +70,11 @@ export const NOVO_EQUIPAMENTOS_MULTIPLOS_SUMMARY = [
 
 export const NOVO_EQUIPAMENTOS_MULTIPLOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Equipamento",
+    url: "/equipamento/novo-equipamento"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar equipamentos",
+    url: "/equipamento/consultar"
   }
 }

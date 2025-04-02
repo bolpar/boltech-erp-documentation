@@ -9,17 +9,9 @@ A página de **Lançamento Manual** no Boltech ERP é a base para inserir e gere
 
 Nesta seção inicial, você deve preencher os dados gerais do lançamento. Ela inclui campos para identificar o fornecedor, as informações do documento, datas relevantes e a categorização financeira do lançamento. Ao selecionar o fornecedor e clicar em pesquisar, os dados cadastrados desse fornecedor serão carregados automaticamente nos campos apropriados, agilizando o processo.
 
-![Campo informações do lançamento](/images/financeiro/contas-a-pagar/lancamento-manual/01.webp)
+![Campo informações do lançamento](/images/financeiro/contas-a-pagar/lancamento-manual/01.gif)
 
 >**Importante**: Esta etapa é crucial para assegurar que todas as informações necessárias sejam registradas corretamente antes de avançar para o parcelamento ou outras operações.
-
----
-
-## Lançamento de Duplicata
-
-Nesta segunda seção, você pode detalhar o parcelamento do pagamento. Aqui, são definidos o número de parcelas, a periodicidade dos vencimentos, e outras informações adicionais sobre como o pagamento será realizado. Após configurar os parâmetros, utilize o botão de **Gerar Parcelas** para criar automaticamente as entradas correspondentes.
-
-![Campo lançamentos duplicata](/images/financeiro/contas-a-pagar/lancamento-manual/02.webp)
 
 ---
 
@@ -27,7 +19,7 @@ Nesta segunda seção, você pode detalhar o parcelamento do pagamento. Aqui, s�
 
 A tabela exibe as parcelas criadas com base nas configurações anteriores, mostrando detalhes essenciais como valores e datas de vencimento. Ela oferece uma visão clara e prática das obrigações financeiras futuras, facilitando a gestão do fluxo de caixa e o acompanhamento dos pagamentos.
 
-![Tabela de parcelas](/images/financeiro/contas-a-pagar/lancamento-manual/03.webp)
+![Tabela de parcelas](/images/financeiro/contas-a-pagar/lancamento-manual/02.gif)
 
 `
 

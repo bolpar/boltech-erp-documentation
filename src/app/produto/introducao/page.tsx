@@ -1,14 +1,13 @@
 import { MainContent } from "@/components/layout/main-content";
-import { CONSULTAR_PLANOS_ACTIONS, CONSULTAR_PLANOS_SUMMARY } from "@/docs/planos/2-consultar-planos";
-import { PRODUTO_INTRODUCAO_MARKDOWN } from "@/docs/produto/@introducao";
+import { PRODUTO_INTRODUCAO_ACTIONS, PRODUTO_INTRODUCAO_MARKDOWN, PRODUTO_INTRODUCAO_SUMMARY } from "@/docs/produto/@introducao";
 
 export default function IntroducaoProduto() {
   return (
     <MainContent
       breadCrumb={[{ title: 'Produto' }, { title: 'Introdução Produto' }]}
       markdown={PRODUTO_INTRODUCAO_MARKDOWN}
-      summary={CONSULTAR_PLANOS_SUMMARY}
-      pagination={CONSULTAR_PLANOS_ACTIONS}
+      summary={PRODUTO_INTRODUCAO_SUMMARY}
+      pagination={PRODUTO_INTRODUCAO_ACTIONS}
     />
   )
 }

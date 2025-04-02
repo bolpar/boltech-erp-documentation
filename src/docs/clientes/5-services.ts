@@ -1,6 +1,6 @@
 export const CLIENTE_SERVICOS_MARKDOWN = `
 # Consultar serviços com o cliente
-
+## (Página em desenvolvimento)
 ![Tabela de serviços](/images/clientes/consultar-servicos-cliente/01.webp)
 `
 

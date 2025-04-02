@@ -26,11 +26,11 @@ export const INTRODUCAO_PLANOS_SUMMARY = [
 
 export const INTRODUCAO_PLANOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Técnicos",
+    url: "/tecnicos/consultar-tecnicos"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Plano",
+    url: "/planos/novo-plano"
   }
 }

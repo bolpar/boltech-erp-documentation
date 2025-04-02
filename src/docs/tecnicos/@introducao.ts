@@ -24,11 +24,11 @@ export const INTRODUCAO_TECNICOS_SUMMARY = [
 
 export const INTRODUCAO_TECNICOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Fornecedores",
+    url: "/fornecedores/consultar-fornecedores"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Técnico",
+    url: "/tecnicos/novo-tecnico"
   }
 }

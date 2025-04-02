@@ -34,22 +34,33 @@ Com essas funcionalidades, a página de consulta de planos assegura uma gestão 
 
 export const CONSULTAR_PLANOS_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Tabela de planos",
+    url: "#tabela-de-planos"
   },
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Ações disponíveis",
+    url: "#ações-disponíveis",
+    subLinks: [
+      {
+        title: 'Visualização do plano',
+        url: "#visualização-do-plano"
+      },
+      {
+        title: 'Edição do plano',
+        url: "#edição-do-plano"
+      },
+    ]
   },
 ]
 
 export const CONSULTAR_PLANOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Plano",
+    url: "/planos/novo-plano",
+
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Introdução á Equipamentos",
+    url: "/equipamento/introducao"
   }
 }

@@ -52,11 +52,11 @@ export const INTRODUCAO_FORNECEDORES_SUMMARY = [
 
 export const INTRODUCAO_FORNECEDORES_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Clientes",
+    url: "/clientes/consultar-clientes"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Fornecedor",
+    url: "/fornecedores/novo-fornecedor"
   }
 }

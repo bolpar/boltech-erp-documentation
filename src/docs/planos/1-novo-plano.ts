@@ -35,11 +35,11 @@ export const NOVO_PLANO_SUMMARY = [
 
 export const NOVO_PLANO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Planos",
+    url: "/planos/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Planos",
+    url: "/planos/consultar"
   }
 }

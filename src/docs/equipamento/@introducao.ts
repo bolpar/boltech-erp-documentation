@@ -18,8 +18,8 @@ Ao final desta seção, você estará apto a gerenciar os equipamentos com efici
 
 export const INTRODUCAO_EQUIPAMENTO_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Introdução ao fluxo de equipamento",
+    url: "#introdução-ao-fluxo-de-equipamento"
   },
   {
     title: "O que você irá aprender",
@@ -29,11 +29,11 @@ export const INTRODUCAO_EQUIPAMENTO_SUMMARY = [
 
 export const INTRODUCAO_EQUIPAMENTO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Planos",
+    url: "/planos/consultar"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Equipamento",
+    url: "/equipamento/novo-equipamento"
   }
 }
