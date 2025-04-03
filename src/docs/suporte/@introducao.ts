@@ -17,22 +17,18 @@ Ao final desta seção, você estará apto a gerenciar atendimentos de suporte c
 
 export const INTRODUCAO_SUPORTE_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
-  },
-  {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Introdução ao fluxo de suporte",
+    url: "#introdução-ao-fluxo-de-suporte"
   },
 ]
 
 export const INTRODUCAO_SUPORTE_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar N.F's",
+    url: "/nota-fiscal/consultar"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Atendimento",
+    url: "/suporte/novo-atendimento"
   }
 }

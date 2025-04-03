@@ -17,10 +17,6 @@ Ao final desta seção, você estará apto a gerenciar comissões com eficiênci
 
 export const NOVA_NOTA_FISCAL_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
-  },
-  {
     title: "O que você irá aprender",
     url: "#o-que-você-irá-aprender"
   },
@@ -28,11 +24,11 @@ export const NOVA_NOTA_FISCAL_SUMMARY = [
 
 export const NOVA_NOTA_FISCAL_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á N.F",
+    url: "/nota-fiscal/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar N.F's",
+    url: "/nota-fiscal/consultar"
   }
 }

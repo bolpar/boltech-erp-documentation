@@ -29,3 +29,26 @@ Para ajustes, o ícone de edição (<img src="/images/pencil-line.png" alt="íco
 
 Para acessar esta funcionalidade, navegue até **Estoque > Produtos** no menu principal.
 `
+
+export const CONSULTA_PRODUTOS_SUMMARY = [
+  {
+    title: "Tabela de produtos",
+    url: "#tabela-de-produtos"
+  },
+  {
+    title: "Detalhamento e edição",
+    url: "#detalhamento-e-edição"
+  },
+]
+
+export const CONSULTA_PRODUTOS_ACTIONS = {
+  previous: {
+    title: "Registrar Produto",
+    url: "/produto/novo-produto",
+
+  },
+  next: {
+    title: "Introdução á Veículos",
+    url: "/veiculos/introducao"
+  }
+}

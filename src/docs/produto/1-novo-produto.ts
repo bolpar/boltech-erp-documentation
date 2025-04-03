@@ -33,3 +33,30 @@ Nesta seção são gerenciadas todas as informações financeiras relacionadas a
 
 Para consultar ou editar produtos cadastrados, acesse **Estoque > Produtos** no menu principal.
 `
+
+export const CONSULTAR_PRODUTOS_SUMMARY = [
+  {
+    title: 'Informações do Produto',
+    url: '#informações-do-produto'
+  },
+  {
+    title: 'Fiscal do Produto',
+    url: '#fiscal-do-produto'
+  },
+  {
+    title: 'Custo do Produto',
+    url: '#custo-do-produto'
+  },
+]
+
+export const CONSULTAR_PRODUTOS_ACTIONS = {
+  previous: {
+    title: "Introdução á Produto",
+    url: "/produto/introducao",
+
+  },
+  next: {
+    title: "Consultar Produto",
+    url: "/produto/consultar"
+  }
+}

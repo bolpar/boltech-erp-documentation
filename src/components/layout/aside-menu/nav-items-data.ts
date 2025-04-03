@@ -350,10 +350,6 @@ export const NAV_ITEMS = [
         title: 'Registrar novo atendimento',
         path: '/suporte/novo-atendimento'
       },
-      {
-        title: 'Consultar atendimentos',
-        path: '/suporte/consultar'
-      }
     ],
   },
   // {

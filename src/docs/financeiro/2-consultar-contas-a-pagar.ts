@@ -31,22 +31,26 @@ Com essas funcionalidades, a aba de "Consultar Contas a Pagar" assegura uma gest
 
 export const CONSULTAR_CONTAS_A_PAGAR_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Visão geral do financeiro",
+    url: "#visão-geral-do-financeiro"
   },
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Tabela de contas a pagar",
+    url: "#tabela-de-contas-a-pagar",
+    subLinks: [{
+      title: 'Filtros e pesquisa',
+      url: '#filtros-e-pesquisa'
+    }]
   },
 ]
 
 export const CONSULTAR_CONTAS_A_PAGAR_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Lançamento Manual",
+    url: "/financeiro/contas-a-pagar/registrar-lancamento"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Efetuar Cobrança",
+    url: "/financeiro/contas-a-receber/registrar-cobranca"
   }
 }

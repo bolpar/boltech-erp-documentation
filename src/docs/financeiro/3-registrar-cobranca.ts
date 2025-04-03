@@ -40,18 +40,26 @@ export const REGISTRAR_COBRANCA_SUMMARY = [
     url: "#identificação-do-lançamento"
   },
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Valores financeiro",
+    url: "#valores-financeiros"
+  },
+  {
+    title: "Prazos e condições de pagamento",
+    url: "#prazos-e-condições-de-pagamento"
+  },
+  {
+    title: "Tabela de parcelas geradas",
+    url: "#tabela-de-parcelas-geradas"
   },
 ]
 
-export const INTRODUCAO_CLIENTE_ACTIONS = {
+export const REGISTRAR_COBRANCA_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Contas a Pagar",
+    url: "/financeiro/contas-a-pagar/consultar"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Contas a Receber",
+    url: "/financeiro/contas-a-receber/consultar"
   }
 }

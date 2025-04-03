@@ -25,11 +25,11 @@ export const NOVO_VEICULO_SUMMARY = [
 
 export const NOVO_VEICULO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Veículos",
+    url: "/veiculos/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Veículos",
+    url: "/veiculos/consultar-veiculos"
   }
 }

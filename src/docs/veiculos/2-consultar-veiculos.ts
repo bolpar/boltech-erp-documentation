@@ -58,11 +58,11 @@ export const CONSULTAR_VEICULOS_SUMMARY = [
 
 export const CONSULTAR_VEICULOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Veículo",
+    url: "/veiculos/novo-veiculo"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Introdução á Financeiro",
+    url: "/financeiro/introducao"
   }
 }

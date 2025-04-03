@@ -20,10 +20,6 @@ Ao final da leitura da seção **Financeiro**, você estará apto a *registrar l
 
 export const INTRODUCAO_FINANCEIRO_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
-  },
-  {
     title: "O que você irá aprender",
     url: "#o-que-você-irá-aprender"
   },
@@ -31,11 +27,11 @@ export const INTRODUCAO_FINANCEIRO_SUMMARY = [
 
 export const INTRODUCAO_FINANCEIRO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Veículos",
+    url: "/veiculos/consultar-veiculos"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Lançamento Manual",
+    url: "/financeiro/contas-a-pagar/registrar-lancamento"
   }
 }

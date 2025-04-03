@@ -29,10 +29,6 @@ export const REGISTRAR_LANCAMENTO_SUMMARY = [
     url: "#informações-do-lançamento"
   },
   {
-    title: "Lançamento de duplicata",
-    url: "#lançamento-de-duplicata"
-  },
-  {
     title: "Tabela de parcelas geradas",
     url: "#tabela-de-parcelas-geradas"
   },
@@ -40,11 +36,11 @@ export const REGISTRAR_LANCAMENTO_SUMMARY = [
 
 export const REGISTRAR_LANCAMENTO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Introdução á Financeiro",
+    url: "/financeiro/introducao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Consultar Contas a Pagar",
+    url: "/financeiro/contas-a-pagar/consultar"
   }
 }

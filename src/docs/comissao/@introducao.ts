@@ -17,10 +17,6 @@ Ao final desta seção, você estará apto a gerenciar comissões com eficiênci
 
 export const INTRODUCAO_COMISSAO_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
-  },
-  {
     title: "O que você irá aprender",
     url: "#o-que-você-irá-aprender"
   },
@@ -28,11 +24,11 @@ export const INTRODUCAO_COMISSAO_SUMMARY = [
 
 export const INTRODUCAO_COMISSAO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar Contas a Receber",
+    url: "/financeiro/contas-a-receber/consultar"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar Comissão",
+    url: "/comissao/nova-comissao"
   }
 }

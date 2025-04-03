@@ -55,11 +55,11 @@ export const CONSULTAR_COMISSAO_SUMMARY = [
 
 export const CONSULTAR_COMISSAO_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Comissão",
+    url: "/comissao/nova-comissao"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Introdução á N.F",
+    url: "/nota-fiscal/introducao"
   }
 }

@@ -24,11 +24,11 @@ export const INTRODUCAO_VEICULOS_SUMMARY = [
 
 export const INTRODUCAO_VEICULOS_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Consultar produto",
+    url: "/produto/consultar"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Registrar veículo",
+    url: "/veiculos/novo-veiculo"
   }
 }

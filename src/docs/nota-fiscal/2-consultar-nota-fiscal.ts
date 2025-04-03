@@ -28,11 +28,11 @@ export const CONSULTAR_NOTA_FISCAL_SUMMARY = [
 
 export const CONSULTAR_NOTA_FISCAL_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Registrar Nota Fiscal",
+    url: "/nota-fiscal/nova-nota-fiscal"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Introdução á Suporte",
+    url: "/suporte/introducao"
   }
 }

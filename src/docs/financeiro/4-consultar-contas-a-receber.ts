@@ -21,24 +21,24 @@ A tabela exibe uma lista simplificada das cobranças em aberto, destacando infor
 Ao selecionar uma cobrança, o painel exibe um resumo unificado com dados do cliente, valores financeiros (como principal, descontos e multas) e prazos operacionais (vencimento, expiração e histórico de atualizações). Seu propósito é centralizar informações críticas em um único espaço, permitindo consultas rápidas e ajustes simples, como alterações de status ou inclusão de observações.  
 `
 
-export const INTRODUCAO_CLIENTE_SUMMARY = [
+export const CONSULTAR_CONTAS_A_RECEBER_SUMMARY = [
   {
-    title: "Introdução ao fluxo de clientes",
-    url: "#introdução-ao-fluxo-de-clientes"
+    title: "Tabela de cobranças pendentes",
+    url: "#tabela-de-cobranças-pendentes"
   },
   {
-    title: "O que você irá aprender",
-    url: "#o-que-você-irá-aprender"
+    title: "Painel de detalhes da cobrança",
+    url: "#painel-de-detalhes-da-cobrança"
   },
 ]
 
-export const INTRODUCAO_CLIENTE_ACTIONS = {
+export const CONSULTAR_CONTAS_A_RECEBER_ACTIONS = {
   previous: {
-    title: "",
-    url: ""
+    title: "Efetuar Cobrança",
+    url: "/fornecedores/contas-a-receber/registrar-cobranca"
   },
   next: {
-    title: "Criar cliente",
-    url: "/clientes/novo-cliente"
+    title: "Introdução á Comissões",
+    url: "/comissao/introducao"
   }
 }
